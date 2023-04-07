@@ -1,0 +1,144 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "2.8.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Hello, Adaptive Cards!",
+      "size": "large",
+      "color": "good",
+      "weight": "bolder"
+    },
+    {
+      "type": "Image",
+      "url": "https://adaptivecards.io/content/adaptive-card-50.png",
+      "size": "medium",
+      "horizontalAlignment": "center"
+    },
+    {
+      "type": "Media",
+      "poster": "https://adaptivecards.io/content/poster-video.png",
+      "sources": [
+        {
+          "mimeType": "video/mp4",
+          "url": "https://adaptivecards.io/content/video.mp4"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Name",
+              "wrap": true
+            },
+            {
+              "type": "Input.Text",
+              "id": "name",
+              "placeholder": "Enter your name"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Age",
+              "wrap": true
+            },
+            {
+              "type": "Input.Number",
+              "id": "age",
+              "placeholder": "Enter your age"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Input.Date",
+      "id": "birthdate",
+      "placeholder": "Enter your birthdate"
+    },
+    {
+      "type": "Input.Time",
+      "id": "alarm",
+      "placeholder": "Set an alarm"
+    },
+    {
+      "type": "Input.Toggle",
+      "id": "agree",
+      "title": "I agree to the terms and conditions",
+      "valueOn": "true",
+      "valueOff": "false"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "choice",
+      "style": "expanded",
+      "choices": [
+        {
+          "title": "Option 1",
+          "value": "1"
+        },
+        {
+          "title": "Option 2",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "type": "Input.File",
+      "id": "file",
+      "accept": "image/*",
+      "multiple": false,
+      "placeholder": "Upload an image"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "iconUrl": "https://adaptivecards.io/content/checkmark.png",
+      "style": "positive"
+    },
+    {
+      "type": "Action.ShowCard",
+      "title": "Comments",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "Input.Text",
+            "id": "comment",
+            "isMultiline": true,
+            "placeholder": "Write your comment"
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Submit Comment",
+            "style": "positive"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Learn More",
+      "url": "https://adaptivecards.io",
+      "style": "default",
+      "iconUrl": "https://adaptivecards.io/content/info.png"
+    }
+  ],
+  "fallbackText": "This content requires Adaptive Cards v2.8.0 support."
+}
