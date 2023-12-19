@@ -1,0 +1,2498 @@
+{
+  "activate": {
+    "title": "Aktivierung",
+    "messages": {
+      "success": "<strong>Ihr Benutzerkonto wurde aktiviert.</strong> Bitte ",
+      "error": "<strong>Ihr Benutzer konnte nicht aktiviert werden.</strong> Bitte verwenden Sie das Registrierungsformular, um sich anzumelden."
+    }
+  },
+  "audits": {
+    "title": "Audits",
+    "filter": {
+      "title": "Filtern nach Datum",
+      "from": "von",
+      "to": "bis",
+      "button": {
+        "weeks": "Wochen",
+        "today": "heute",
+        "clear": "löschen",
+        "close": "schließen"
+      }
+    },
+    "table": {
+      "header": {
+        "principal": "Benutzer",
+        "date": "Datum",
+        "status": "Zustand",
+        "data": "Zusätzliche Daten"
+      },
+      "data": {
+        "remoteAddress": "Remote-Adresse:"
+      }
+    },
+    "notFound": "Kein Audit gefunden"
+  },
+  "configuration": {
+    "title": "Konfiguration",
+    "filter": "Filter (nach Präfix)",
+    "table": {
+      "prefix": "Präfix",
+      "properties": "Eigenschaften"
+    }
+  },
+  "confirmation": {
+    "title": "Bestätigung",
+    "cancel": "Abbrechen",
+    "yes": "Ja",
+    "no": "Nein",
+    "delete": "Löschen",
+    "deleteMessage": "Möchten Sie diese Notiz wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+    "scriptExit": "Alle von Ihnen eingegebenen Daten gehen verloren, wenn Sie das Skripterstellung verlassen. Sind Sie sicher, dass Sie verlassen möchten?",
+    "exitMessage": "Alle von Ihnen gemachten Fortschritte gehen verloren, wenn Sie die Bewertung jetzt verlassen. Sind Sie sicher, dass Sie verlassen möchten?",
+    "saveWarning": "Sind Sie sicher? Speichern Sie die Aufnahme, bevor Sie eine andere Ressource auswählen, sonst verlieren Sie Ihre Aufnahme.",
+    "clipSaveWarning": "Sind Sie sicher? Speichern Sie die Aufnahme, bevor Sie einen anderen Clip auswählen, sonst verlieren Sie Ihre Aufnahme.",
+    "mcqSaveWarning": "Sind Sie sicher? Speichern Sie die Antwort, bevor Sie eine andere MCQ auswählen."
+  },
+  "courseInfo": {
+    "introduction": "Einführung",
+    "goToLearn": "Gehe zu Lernen >",
+    "learn": "Lernen",
+    "practice": "Üben",
+    "assessment": "Bewertung",
+    "callType": "Anruftyp:",
+    "clip": "Clip",
+    "callOverview": "Anrufübersicht",
+    "pressToPlay": "Hören Sie sich den Clip an",
+    "agent": "Agent",
+    "customer": "Kunde",
+    "noTranscriptAvailable": "Kein Transkript verfügbar",
+    "hints": "Hinweise",
+    "noHintsAvailable": "Keine Hinweise verfügbar",
+    "goToIntroduction": "Gehe zur Einführung",
+    "previous": "Vorherige",
+    "next": "Nächste",
+    "goToPractice": "Gehe zu Üben",
+    "instructions": "Anweisungen",
+    "noInstructionAvailable": "Keine Anweisungen verfügbar",
+    "record": "Aufnehmen",
+    "stop": "Stoppen",
+    "submit": "Einreichen",
+    "checkResult": "Ergebnis prüfen",
+    "submitAssessment": "Bewertung einreichen"
+  },
+  "courseList": {
+    "header": "Kurse durchsuchen",
+    "subHeader1": "Trendkurse",
+    "subHeader2": "Kurse, die Sie interessieren könnten",
+    "subHeader3": "Kürzlich geöffnete Kurse erneut besuchen",
+    "subHeader4": "Kurse bearbeiten",
+    "search": "Gesucht nach: ",
+    "clearSearch": "Löschen",
+    "results": "Keine Ergebnisse gefunden !! ",
+    "placeholder": "Kurse suchen",
+    "viewAll": "Alle Kurse anzeigen",
+    "proficiency": "Kompetenz",
+    "courseType": "Kurstyp",
+    "duration": "Dauer",
+    "remove": "Filter entfernen",
+    "yearly": "Jährlich",
+    "weekly": "Wöchentlich",
+    "beginner": "Anfänger",
+    "intermediate": "Mittelstufe",
+    "advanced": "Fortgeschritten",
+    "daily": "Täglich",
+    "quarterly": "Vierteljährlich",
+    "noCourses": "Keine Kurse zum Anzeigen. ",
+    "create": "Kurs erstellen ",
+    "start": "Lernen beginnen",
+    "edit": "Kurs bearbeiten",
+    "welcome": "Willkommen",
+    "all": "Alle anzeigen",
+    "less": "Weniger anzeigen"
+  },
+  "createScript": {
+    "step1": {},
+    "step2": {
+      "heading1": "Audiodateien und Details",
+      "scriptObjective": "Skriptziel:",
+      "learning": "Lernen",
+      "scriptDetails": {
+        "heading": "Skriptdetails",
+        "bodyText": "Anrufhintergrund"
+      },
+      "heading2": "Quiz"
+    }
+  },
+  "createCourseList": {
+    "header": "Simulierten Lernkurs erstellen",
+    "courseStep1": "Kursdetails",
+    "courseStep2": "Lernmodul erstellen",
+    "courseStep3": "Übungsskripte hinzufügen",
+    "courseStep4": "Bewertungsmodul erstellen",
+    "courseStep5": "Überprüfen und Einreichen",
+    "courseInfo": "Kursinformationen",
+    "requiredMessage": "Alle Felder sind erforderlich, sofern nicht als optional gekennzeichnet",
+    "uploadThumbnail": "Thumbnail und Einführungsvideo für einen Kurs hochladen",
+    "addImageText": "Bild hinzufügen",
+    "addVideoText": "Video hinzufügen",
+    "dragDropText": "Ziehen und Ablegen",
+    "selectFile": "Datei auswählen",
+    "linkHeader": "Verwandte Kurse verlinken",
+    "linkSubHeader": "URL des verwandten Kurses (Optional)",
+    "linkPlaceholder": "URL eingeben",
+    "back": "Zurück",
+    "next": "Weiter",
+    "submit": "Einreichen",
+    "update": "Kurs aktualisieren",
+    "proceedTo": "Weiter zu",
+    "proceed": "Fortfahren",
+    "proceedToLearning": "Weiter zur Erstellung des Lernmoduls",
+    "editedMessage": "Änderungen werden nur ab dem Abschnitt Überprüfen und Einreichen gespeichert.",
+    "courseDuration": "Kursdauer",
+    "learning": "Lernen",
+    "practice": "Üben",
+    "assessment": "Bewertung",
+    "edit": "Bearbeiten",
+    "courseDetails": {
+      "name": "Kursname",
+      "desc": "Kursbeschreibung",
+      "points": "Punkte",
+      "level": "Niveau",
+      "outcomes": "Kursergebnisse",
+      "prerequisities": "Voraussetzungen (Optional)",
+      "badges": "Abzeichen",
+      "tags": "Tags",
+      "skills": "Fähigkeiten",
+      "namePlaceholder": "Kurs eingeben",
+      "descPlaceholder": "Kursbeschreibung eingeben",
+      "outcomesPlaceholder": "Kursergebnisse eingeben",
+      "prerequisitiesPlaceholder": "Voraussetzungen eingeben",
+      "badgesPlaceholder": "Abzeichen eingeben",
+      "tagsPlaceholder": "Neues Tag eingeben",
+      "skillsPlaceholder": "Mit dem Kurs verbundene Fähigkeiten eingeben"
+    }
+  },
+  "createModuleList": {
+    "addModule": "Modul hinzufügen +",
+    "reset": "Zurücksetzen",
+    "deleteModule": "Modul löschen",
+    "tagsAssociated": "Tag verbunden mit Modul {{moduleNumber}}",
+    "tagsSubheader": "Drücken Sie die Eingabetaste, um ein neues Tag zu erstellen. Rücktaste oder Löschen, um das letzte zu entfernen.",
+    "thresholdHeader": "Schwellenwert konfigurieren",
+    "softSkills": "Soft Skills",
+    "pace": "Tempo",
+    "grammar": "Grammatik",
+    "sentiment": "Agenten Stimmung",
+    "choiceOfWords": "Wortwahl",
+    "silence": "Stille",
+    "relevanceScore": "Relevanzwert",
+    "similarityMatch": "Ähnlichkeitsabgleich",
+    "listModule": "Liste der Module in {{courseName}}",
+    "title": "Moduldetails",
+    "name": "Name",
+    "outcomes": "Ergebnisse",
+    "desc": "Beschreibung",
+    "duration": "Dauer (in hh:mm)",
+    "reviewDuration": "Dauer",
+    "namePlaceholder": "Modul eingeben",
+    "descPlaceholder": "Beschreibung eingeben",
+    "outcomesPlaceholder": "Ergebnisse eingeben",
+    "durationPlaceholder": "Dauer eingeben",
+    "tableCallId": "Anruf-ID",
+    "tableDuration": "Dauer (mm:ss)",
+    "playAudio": "Audio abspielen",
+    "scriptSelected": "Skripte ausgewählt.",
+    "searchScripts": "Skripte suchen",
+    "rearrange": "Umordnen",
+    "tableHeader1": "Anrufe für",
+    "tableHeader2": "Modul aus Anrufdatenbank wählen",
+    "practice": "Üben",
+    "assessment": "Bewertung",
+    "learning": "Lernen",
+    "tableScriptId": "Skript-ID",
+    "creator": "Ersteller",
+    "saveChangesHeading": "Änderungen bestätigen",
+    "saveChangesDescription": "Durch die Änderung des Levels gehen alle ausgewählten Skripte verloren und Sie müssen zu den Modulen zurückkehren, um die Skripte erneut auszuwählen. Sind Sie sicher, dass Sie die Änderungen speichern möchten?",
+    "confirmChanges": "Ja",
+    "dismissChanges": "Nein"
+  },
+  "error": {
+    "enrollmentExistsForCourse": "Trainees haben sich bereits für diesen Kurs eingeschrieben. Er kann nicht geändert werden.",
+    "title": "Fehler!",
+    "http": {
+      "400": "Schlechte Anfrage.",
+      "403": "Sie sind nicht berechtigt, diese Seite aufzurufen.",
+      "404": "Es gab einen Systemfehler. Eine vom System angeforderte Ressource wurde nicht gefunden. Bitte erstellen Sie ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen.",
+      "405": "Es gab einen Systemfehler. Diese Aktion wird nicht unterstützt. Bitte erstellen Sie ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen.",
+      "500": "Es gab einen Systemfehler. Der Dienst hat derzeit Probleme. Bitte versuchen Sie den Vorgang erneut. Wenn der Fehler weiterhin besteht, erstellen Sie bitte ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen."
+    },
+    "concurrencyFailure": "Ein anderer Benutzer hat diese Daten zur gleichen Zeit wie Sie geändert. Ihre Änderungen wurden abgelehnt.",
+    "validation": "Validierungsfehler auf dem Server.",
+    "videoError": "Das Video konnte zu dieser Zeit nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "system.general.fault": "Wir haben derzeit Probleme, Ihre Anfrage zu bearbeiten. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Support, wenn das Problem weiterhin besteht.",
+    "unclearAudioErr": "Antwort enthält kein Audio oder ist unklar. Bitte nehmen Sie erneut auf.",
+    "noObjectFoundFromId": "Es gab einen Systemfehler. Ein Eintrag, der diesem {{entityName}} Id entspricht, wurde nicht gefunden. Bitte erstellen Sie ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen.",
+    "FileSizeErr": "Die hochgeladene Datei ist zu groß. Bitte beschränken Sie die Dateigröße auf unter 200kb.",
+    "VideoFileSizeErr": "Die hochgeladene Datei ist zu groß. Bitte beschränken Sie die Dateigröße auf unter 10Mb.",
+    "parseID": "Es gab einen Systemfehler. Ein Parse-Fehler ist aufgetreten. Bitte erstellen Sie ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen.",
+    "entityNameAlreadyExists": "Ein {{entityName}} mit diesem Namen existiert bereits. Bitte verwenden Sie einen anderen Namen.",
+    "nameAlreadyExists": "Ein {{entityName}} mit diesem Namen existiert bereits. Bitte verwenden Sie einen anderen Namen.",
+    "fileAlreadyExists": "Eine Datei mit diesem Namen existiert bereits. Bitte benennen Sie die Datei um und versuchen Sie es erneut hochzuladen.",
+    "fileSizeAndExtension": "Die hochgeladene Datei ist entweder zu groß oder vom falschen Typ.",
+    "Unauthorized": "Sie sind nicht berechtigt, diese Seite aufzurufen.",
+    "userNotFound": "Empfänger ist kein registrierter Benutzer.",
+    "fallBackResponse": "Wir haben derzeit Probleme, die Anfrage zu bearbeiten. Bitte versuchen Sie es später erneut.",
+    "audioNotFound": {
+      "title": "Fehler!",
+      "message": "Das Audio konnte zu dieser Zeit nicht geladen werden. Bitte versuchen Sie es später erneut. Wenn der Fehler weiterhin besteht, erstellen Sie bitte ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen."
+    },
+    "FileTypeErr": "Die hochgeladene Datei ist vom falschen Typ.",
+    "internalServerError": "Interner Serverfehler",
+    "server.not.reachable": "Es scheint ein Verbindungsproblem zu geben. Bitte überprüfen Sie Ihr Netzwerk oder kontaktieren Sie den Support",
+    "url.not.found": "Nicht gefunden",
+    "NotNull": "Feld {{ fieldName }} darf nicht leer sein!",
+    "NotBlank": "{{ fieldName }} darf nicht leer sein!",
+    "Size": "Feld {{ fieldName }} erfüllt nicht die Mindest-/Maximalgrößenanforderungen!",
+    "userexists": "Login-Name bereits verwendet!",
+    "emailexists": "E-Mail wird bereits verwendet!",
+    "idexists": "Es gab einen Systemfehler. Ein {{entityName}}-Eintrag mit dieser Id existiert bereits. Bitte erstellen Sie ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen.",
+    "idnull": "Es gab einen Systemfehler. Eine Id wurde erwartet, während ein {{entityName}} aktualisiert wurde. Bitte erstellen Sie ein Support-Ticket, um das technische Team mit dieser Angelegenheit zu beauftragen.",
+    "file": {
+      "could.not.extract": "Datei konnte nicht extrahiert werden",
+      "not.image": "Datei sollte ein Bild sein, wurde jedoch als \"{{ fileType }}\" gefunden"
+    }
+  },
+  "global": {
+    "title": "Infosys Cortex2",
+    "browsehappy": "Sie verwenden einen <strong>veralteten</strong> Browser. Bitte <a href=\"http://browsehappy.com/?locale=en\">aktualisieren Sie Ihren Browser</a>, um Ihre Erfahrung zu verbessern.",
+    "menu": {
+      "home": "Startseite",
+      "jhipster-needle-menu-add-element": "JHipster wird hier zusätzliche Menüeinträge hinzufügen (nicht übersetzen!)",
+      "entities": {
+        "main": "Entitäten",
+        "jhipster-needle-menu-add-entry": "JHipster wird hier zusätzliche Entitäten hinzufügen (nicht übersetzen!)",
+        "course": "Kurs",
+        "module": "Modul"
+      },
+      "account": {
+        "main": "Konto",
+        "settings": "Einstellungen",
+        "password": "Passwort",
+        "sessions": "Sitzungen",
+        "login": "Anmelden",
+        "logout": "Abmelden",
+        "register": "Registrieren"
+      },
+      "admin": {
+        "main": "Verwaltung",
+        "userManagement": "Benutzerverwaltung",
+        "tracker": "Benutzerverfolgung",
+        "metrics": "Metriken",
+        "health": "Gesundheit",
+        "configuration": "Konfiguration",
+        "logs": "Protokolle",
+        "audits": "Audits",
+        "apidocs": "API",
+        "database": "Datenbank",
+        "jhipster-needle-menu-add-admin-element": "JHipster wird hier zusätzliche Menüeinträge hinzufügen (nicht übersetzen!)"
+      },
+      "language": "Sprache"
+    },
+    "form": {
+      "username.label": "Benutzername",
+      "username.placeholder": "Ihr Benutzername",
+      "currentpassword.label": "Aktuelles Passwort",
+      "currentpassword.placeholder": "Aktuelles Passwort",
+      "newpassword.label": "Neues Passwort",
+      "newpassword.placeholder": "Neues Passwort",
+      "confirmpassword.label": "Neues Passwort bestätigen",
+      "confirmpassword.placeholder": "Bestätigen Sie das neue Passwort",
+      "email.label": "E-Mail",
+      "email.placeholder": "Ihre E-Mail"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "Wenn Sie sich ",
+          "link": "anmelden",
+          "suffix": " möchten, können Sie die Standardkonten ausprobieren:<br/>- Administrator (Login=\"admin\" und Passwort=\"admin\") <br/>- Benutzer (Login=\"user\" und Passwort=\"user\")."
+        },
+        "register": {
+          "noaccount": "Sie haben noch kein Konto?",
+          "link": "Ein neues Konto registrieren"
+        }
+      },
+      "error": {
+        "dontmatch": "Das Passwort und seine Bestätigung stimmen nicht überein!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "Ihr Passwort ist erforderlich.",
+          "minlength": "Ihr Passwort muss mindestens 4 Zeichen lang sein.",
+          "maxlength": "Ihr Passwort darf nicht länger als 50 Zeichen sein.",
+          "strength": "Passwortstärke:"
+        },
+        "confirmpassword": {
+          "required": "Ihr Bestätigungspasswort ist erforderlich.",
+          "minlength": "Ihr Bestätigungspasswort muss mindestens 4 Zeichen lang sein.",
+          "maxlength": "Ihr Bestätigungspasswort darf nicht länger als 50 Zeichen sein."
+        },
+        "email": {
+          "required": "Ihre E-Mail ist erforderlich.",
+          "invalid": "Ihre E-Mail ist ungültig.",
+          "minlength": "Ihre E-Mail muss mindestens 5 Zeichen lang sein.",
+          "maxlength": "Ihre E-Mail darf nicht länger als 50 Zeichen sein."
+        }
+      },
+      "noData": "Keine Daten verfügbar"
+    },
+    "field": {
+      "id": "ID"
+    },
+    "ribbon": {
+      "dev": "Entwicklung"
+    },
+    "item-count": "Anzeige von {{first}} bis {{second}} von {{total}} Elementen.",
+    "validEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein!",
+    "modalSubject": "Betreff",
+    "notEmpty": "Betreff darf nicht leer sein.",
+    "frequentContacts": "Häufige Kontakte",
+    "modalMessage": "Nachricht",
+    "noMailBody": "Kein E-Mail-Text vorhanden!",
+    "listenAndLearn": "Zuhören und Lernen: ",
+    "correct": "Richtig",
+    "incorrect": "Falsch",
+    "usedWords": "Verwendete Wörter",
+    "alternatives": "Alternativen",
+    "revisitInstance": "Instanz erneut besuchen",
+    "relatedUrls": "URLs für verwandte Kurse",
+    "noModulesAvailable": "Keine Module verfügbar",
+    "tags": "Tags",
+    "inference": "Schlussfolgerung",
+    "keyTakeaway": "Haupterkenntnis",
+    "selectScript": "Skript auswählen",
+    "close": "Schließen"
+  },
+  "entity": {
+    "action": {
+      "addblob": "Blob hinzufügen",
+      "addimage": "Bild hinzufügen",
+      "back": "Zurück",
+      "cancel": "Abbrechen",
+      "delete": "Löschen",
+      "edit": "Bearbeiten",
+      "open": "Öffnen",
+      "save": "Speichern",
+      "view": "Anzeigen",
+      "send": "Senden",
+      "saveChanges": "Änderungen speichern",
+      "saving": "Speichern..."
+    },
+    "detail": {
+      "field": "Feld",
+      "value": "Wert"
+    },
+    "delete": {
+      "title": "Löschvorgang bestätigen"
+    },
+    "validation": {
+      "required": "Dieses Feld ist erforderlich.",
+      "minlength": "Dieses Feld muss mindestens {{ minlength }} Zeichen lang sein.",
+      "maxlength": "Dieses Feld darf nicht länger als {{ maxlength }} Zeichen sein.",
+      "min": "Dieses Feld sollte mindestens {{ min }} sein.",
+      "max": "Dieses Feld darf nicht mehr als {{ max }} sein.",
+      "minbytes": "Dieses Feld sollte mindestens {{ min }} Bytes sein.",
+      "maxbytes": "Dieses Feld darf nicht mehr als {{ max }} Bytes sein.",
+      "pattern": "Dieses Feld sollte dem Muster für {{ pattern }} folgen.",
+      "text": "Dieses Feld sollte nur Buchstaben und Leerzeichen enthalten.",
+      "number": "Dieses Feld sollte eine Zahl sein.",
+      "datetimelocal": "Dieses Feld sollte ein Datum und eine Uhrzeit sein.",
+      "timelocal": "Dieses Feld sollte dem Muster für hh:mm folgen.",
+      "patternLogin": "Dieses Feld darf nur Buchstaben, Ziffern und E-Mail-Adressen enthalten.",
+      "linkPresent": "Link existiert bereits.",
+      "valuelocal": "Dauer sollte nicht 0 sein.",
+      "durationNonZero": "Dauer sollte größer als null sein.",
+      "durationFormat": "Dauer sollte im Format '{{ format }}' angegeben werden",
+      "moduleDuration": "Die Dauer des Moduls sollte größer oder gleich der Summe aller Skripte im Modul sein.",
+      "moduleDuration.learning": "Bei Lernmodulen werden sowohl Lern- als auch Übungsskripte berücksichtigt.",
+      "inputNumberMax": "Feld sollte eine Zahl sein und zwischen 0 und 100 liegen."
+    }
+  },
+  "footer": {
+    "copyright": "Urheberrecht 2020",
+    "privacy": "Datenschutz",
+    "sitemap": "Sitemap",
+    "disclaimer": "Haftungsausschluss",
+    "rights": "Alle Rechte vorbehalten. Powered By Infosys"
+  },
+  "health": {
+    "title": "Gesundheitschecks",
+    "refresh.button": "Aktualisieren",
+    "stacktrace": "Stapelverfolgung",
+    "details": {
+      "details": "Einzelheiten",
+      "properties": "Eigenschaften",
+      "name": "Name",
+      "value": "Wert",
+      "error": "Fehler"
+    },
+    "indicator": {
+      "diskSpace": "Festplattenspeicher",
+      "mail": "E-Mail",
+      "ping": "Anwendung",
+      "db": "Datenbank"
+    },
+    "table": {
+      "service": "Dienstname",
+      "status": "Status"
+    },
+    "status": {
+      "UNKNOWN": "UNBEKANNT",
+      "UP": "VERFÜGBAR",
+      "DOWN": "AUSGEFALLEN"
+    }
+  },
+  "historicalDataProcessing": {
+    "filter": "Gefiltert nach:",
+    "clear": "Suche löschen",
+    "callId": "Anruf-ID",
+    "callRecords": "Liste der Anrufaufzeichnungen",
+    "wordCloud": "Wortwolke",
+    "historicalCallRecords": "Historische Anrufaufzeichnungen",
+    "uploadedBatches": "Liste der hochgeladenen Anrufbatches",
+    "uploadBatch": "Batch hochladen",
+    "upload": "Hochladen",
+    "callQualityAnalysis": "Analyse der Anrufqualität",
+    "ingestCalls": "Anrufe einlesen",
+    "ingestCall": "Anruf einlesen",
+    "callDisposition": "Anruf-Disposition",
+    "callGroup": "Anrufgruppe",
+    "issue": "Probleme",
+    "cause": "Ursache",
+    "resolution": "Lösung",
+    "advance": "Voranbringen",
+    "action": "Aktion",
+    "noData": "Keine Daten verfügbar",
+    "editTranscript": "Transkript bearbeiten",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "transcript": "Transkript",
+    "playAudio": "Audio abspielen",
+    "checkTranscripts": "Das Gespräch anhören und die Transkripte überprüfen",
+    "audioQuality": "Audioqualität",
+    "callSentiments": "Anrufsentiment",
+    "callParticipation": "Anrufbeteiligung",
+    "averageCallDuration": "Durchschnittliche Anrufdauer",
+    "callRecordsAnalysis": "Analyse der Anrufaufzeichnungen",
+    "callRecordsAnalyzed": "Analysierte Anrufaufzeichnungen",
+    "callRecordsFetched": "Abgerufene Anrufaufzeichnungen",
+    "agentSentiment": "Agent-Sentiment",
+    "clientSentiment": "Kundensentiment",
+    "averageSentiment": "Durchschnittliches Sentiment",
+    "agentPace": "Tempo des Agenten",
+    "wordsPerMin": "Wörter pro Minute",
+    "associatedTags": "Zugehörige Tags",
+    "duration": "Dauer",
+    "silentTime": "Stille Zeit",
+    "overall": "Insgesamt",
+    "agent": "Agent",
+    "customer": "Kunde",
+    "tone": "Ton",
+    "participationRatio": "Beteiligungsverhältnis",
+    "sentimentAndTone": "Sentiment und Ton",
+    "interruption": "Unterbrechung",
+    "pace": "Tempo",
+    "wordsPerMinute": "Wörter pro Minute",
+    "sentiment": "Sentiment",
+    "markAsQualityChecked": "Als qualitätsgeprüft markieren",
+    "qualityChecked": "Qualitätsgeprüft",
+    "back": "Zurück",
+    "associatedTagsValidation": "Tags können maximal 30 Zeichen lang sein",
+    "batch": "Batch",
+    "batchDescription": "Batch-Beschreibung",
+    "noOfAudioFiles": "Anzahl der Audiodateien",
+    "updateDate": "Aktualisierungsdatum",
+    "reviewed": "Überprüft",
+    "issues": "Probleme",
+    "callDuration": "Anrufdauer",
+    "associatedTagsPlaceholder": "Geben Sie ein Tag ein",
+    "startTagging": "Tagging starten",
+    "undo": "Rückgängig machen",
+    "defaultMessage": "Beim Abspielen des Audios werden die Töne der jeweiligen Bereiche hier angezeigt",
+    "ingestedCallsInfo": "Bitte .wav oder .flac Dateien hochladen",
+    "analyze": "Analysieren",
+    "warningMessage": {
+      "part0": "",
+      "part1": "Die ausgewählte Zeit sollte zwischen ",
+      "part2": " Sekunden und ",
+      "part3": " Sekunden liegen!!!"
+    },
+    "interruptions": {
+      "total": "Anzahl der Unterbrechungen",
+      "agent": "Agent",
+      "customer": "Kunde"
+    },
+    "positive": "Positiv",
+    "negitive": "Negativ",
+    "neutral": "Neutral",
+    "alert": "Achtung!",
+    "mapTranscriptMessage": "Bitte markieren Sie den gewünschten Text zur Zuordnung",
+    "close": "Schließen",
+    "incorrect": "Falsch",
+    "correct": "Richtig",
+    "changesMessage": "Änderungen werden nach ein paar Minuten sichtbar",
+    "usedWords": "Verwendete Wörter",
+    "alternatives": "Alternativen",
+    "revisitInstance": "Instanz erneut besuchen"
+  },
+  "home": {
+    "title": "Infosys Cortex2",
+    "button": "Loslegen",
+    "subtitle": "Dies ist Ihre Startseite",
+    "logged": {
+      "message": "Sie sind als Benutzer \"{{username}}\" eingeloggt."
+    },
+    "question": "Wenn Sie Fragen zu JHipster haben:",
+    "link": {
+      "homepage": "JHipster-Startseite",
+      "stackoverflow": "JHipster auf Stack Overflow",
+      "bugtracker": "JHipster-Bugtracker",
+      "chat": "JHipster öffentlicher Chatraum",
+      "follow": "folgen Sie @jhipster auf Twitter"
+    },
+    "like": "Wenn Ihnen JHipster gefällt, vergessen Sie nicht, uns einen Stern auf",
+    "github": "GitHub"
+  },
+  "icortex2WebApp": {
+    "course": {
+      "name": "Kursname"
+    }
+  },
+  "learning": {
+    "title": "Lernzentrum",
+    "header": "Lernen Sie jederzeit und überall!",
+    "subHeader": "Entdecken Sie Kurse, um in simulierter Umgebung zu lernen und professionelle Fähigkeiten zu entwickeln.",
+    "simulated": {
+      "title": "Simuliertes Lernen",
+      "desc": "Wählen Sie aus einer Vielzahl von Kursen und lernen Sie in einer simulierten Umgebung.",
+      "button": "Kurse erkunden"
+    },
+    "create": {
+      "title": "Kurserstellung",
+      "desc": "Erstellen Sie Kurse zum Lernen in simulierter Umgebung",
+      "button": "Kurs erstellen"
+    },
+    "explore": {
+      "title": "Dashboard erkunden",
+      "desc": "Überprüfen Sie Ihre Leistungen, Trends, Einblicke und Empfehlungen auf dem Dashboard.",
+      "button": "Dashboard anzeigen"
+    },
+    "pick": {
+      "title": "Setzen Sie fort, wo Sie aufgehört haben",
+      "desc": "Fahren Sie mit den Kursen fort, für die Sie sich bereits eingeschrieben haben.",
+      "button": "Weiterlernen"
+    },
+    "experts": {
+      "title": "Sprechen Sie mit den Experten",
+      "desc": "Wählen Sie aus einer Vielzahl von Kursen und lernen Sie in einer simulierten Umgebung.",
+      "button": "Expertenverbindung"
+    },
+    "assessment": {
+      "title": "Bewertungsergebnis",
+      "desc": "Überprüfen Sie die Punktzahl für Ihre letzte abgeschlossene Bewertung.",
+      "button": "Punktzahl anzeigen"
+    }
+  },
+  "login": {
+    "title": "Anmelden",
+    "form": {
+      "password": "Passwort",
+      "password.placeholder": "Ihr Passwort",
+      "rememberme": "Erinnere mich",
+      "button": "Anmelden"
+    },
+    "messages": {
+      "error": {
+        "authentication": "<strong>Anmeldung fehlgeschlagen!</strong> Bitte überprüfen Sie Ihre Anmeldeinformationen und versuchen Sie es erneut."
+      }
+    },
+    "password": {
+      "forgot": "Haben Sie Ihr Passwort vergessen?"
+    }
+  },
+  "logs": {
+    "title": "Protokolle",
+    "nbloggers": "Es gibt {{ total }} Logger.",
+    "filter": "Filter",
+    "table": {
+      "name": "Name",
+      "level": "Stufe"
+    }
+  },
+  "metrics": {
+    "title": "Anwendungsstatistiken",
+    "refresh.button": "Aktualisieren",
+    "updating": "Aktualisierung...",
+    "jvm": {
+      "title": "JVM Statistiken",
+      "memory": {
+        "title": "Speicher",
+        "total": "Gesamtspeicher",
+        "heap": "Heap-Speicher",
+        "nonheap": "Nicht-Heap-Speicher"
+      },
+      "threads": {
+        "title": "Threads",
+        "all": "Alle",
+        "runnable": "Ausführbar",
+        "timedwaiting": "Zeitlich wartend",
+        "waiting": "Wartend",
+        "blocked": "Blockiert",
+        "dump": {
+          "title": "Thread-Dump",
+          "id": "Id: ",
+          "blockedtime": "Blockierte Zeit",
+          "blockedcount": "Blockierte Anzahl",
+          "waitedtime": "Wartezeit",
+          "waitedcount": "Warteanzahl",
+          "lockname": "Sperrname",
+          "stacktrace": "Stapelverfolgung",
+          "show": "Stapelverfolgung anzeigen",
+          "hide": "Stapelverfolgung ausblenden"
+        }
+      },
+      "gc": {
+        "title": "Müllsammlungen",
+        "marksweepcount": "Mark Sweep Anzahl",
+        "marksweeptime": "Mark Sweep Zeit",
+        "scavengecount": "Scavenge Anzahl",
+        "scavengetime": "Scavenge Zeit"
+      },
+      "http": {
+        "title": "HTTP-Anfragen (Zeit in Millisekunden)",
+        "active": "Aktive Anfragen:",
+        "total": "Gesamtanfragen:",
+        "table": {
+          "code": "Code",
+          "count": "Anzahl",
+          "mean": "Durchschnitt",
+          "average": "Mittelwert",
+          "max": "Max"
+        },
+        "code": {
+          "ok": "Ok",
+          "notfound": "Nicht gefunden",
+          "servererror": "Serverfehler"
+        }
+      }
+    },
+    "servicesstats": {
+      "title": "Dienststatistiken (Zeit in Millisekunden)",
+      "table": {
+        "name": "Dienstname",
+        "count": "Anzahl",
+        "mean": "Durchschnitt",
+        "min": "Min",
+        "max": "Max",
+        "p50": "p50",
+        "p75": "p75",
+        "p95": "p95",
+        "p99": "p99"
+      }
+    },
+    "cache": {
+      "title": "Cache-Statistiken",
+      "cachename": "Cache-Name",
+      "hits": "Cache-Treffer",
+      "misses": "Cache-Verfehlungen",
+      "gets": "Cache-Abfragen",
+      "puts": "Cache-Einträge",
+      "removals": "Cache-Entfernungen",
+      "evictions": "Cache-Räumungen",
+      "hitPercent": "Cache-Trefferquote %",
+      "missPercent": "Cache-Verfehlungsquote %",
+      "averageGetTime": "Durchschnittliche Abfragezeit (µs)",
+      "averagePutTime": "Durchschnittliche Eintragszeit (µs)",
+      "averageRemoveTime": "Durchschnittliche Entfernungszeit (µs)"
+    },
+    "datasource": {
+      "usage": "Verbindungspool-Nutzung",
+      "title": "DataSource-Statistiken (Zeit in Millisekunden)",
+      "name": "Pool-Nutzung",
+      "count": "Anzahl",
+      "mean": "Durchschnitt",
+      "min": "Min",
+      "max": "Max",
+      "p50": "p50",
+      "p75": "p75",
+      "p95": "p95",
+      "p99": "p99"
+    }
+  },
+  "module": {
+    "title": {
+      "listen": "Hören und lernen: ",
+      "practice": "Übung: ",
+      "assessment": "Bewertung: "
+    },
+    "scriptTable": {
+      "scriptId": "Skript-ID",
+      "duration": "Dauer",
+      "clips": "Clips"
+    },
+    "cardTitle": {
+      "descCard": "Anruf Hintergrund",
+      "inferenceCard": "Wichtigste Erkenntnis",
+      "hints": "Hinweise",
+      "notes": "Notizen hinzufügen",
+      "scriptTitle": " Skripte",
+      "resourceExpand": " Erweitern",
+      "resourceCollapse": " Zusammenklappen",
+      "resourceMobile": "Anrufe im Modul",
+      "resourceTitle": "Liste der Skripte",
+      "playCard": "Clips abspielen",
+      "respondCard": "Übungsanruf",
+      "sentiment": "Durchschnittliche Stimmung",
+      "assessmentPlayCard": "Interaktion Zugriff",
+      "mcqCard": "Multiple-Choice-Fragen"
+    },
+    "button": {
+      "mcq": "Multiple-Choice-Fragen üben",
+      "practiceScripts": "Skripte üben",
+      "back": "Zurück zum Kurs",
+      "next": "Nächstes Modul",
+      "nextCall": "Nächster >>",
+      "respond": "Antworten ",
+      "analyze": "Analysieren ",
+      "retry": "Wiederholen ",
+      "cancel": "Abbrechen ",
+      "type": "Art",
+      "discard": "Verwerfen",
+      "listen": "Hören und Lernen",
+      "respondAgain": "Antwort nochmals aufnehmen",
+      "mark": "Zur Überprüfung markieren",
+      "unmark": "Markierung aufheben",
+      "submitAssessment": "Bewertung einreichen",
+      "submitModule": "Modul einreichen",
+      "stop": "Stoppen ",
+      "save": "Speichern ",
+      "submit": "Einreichen ",
+      "nextCall2": "Nächster Anruf",
+      "nextScript": "Nächstes Skript",
+      "previousClip": "Vorheriger Clip",
+      "nextClip": "Nächster Clip",
+      "nextMcq": "Nächstes Quiz",
+      "previousMcq": "Vorheriges Quiz",
+      "saveAndNext": "Speichern und Nächstes Quiz",
+      "saveAndSwitchMode": "Speichern und zu Audio-Clips wechseln"
+    },
+    "status": {
+      "callCompleted": "Skripte abgeschlossen",
+      "remaining": " von ",
+      "answered": "Beantwortet",
+      "visited": "Besucht",
+      "unvisited": "Unbesucht",
+      "marked": "Zur Überprüfung",
+      "question": " Fragen verbleibend"
+    },
+    "instructions": {
+      "title": "Bewertungsanweisungen",
+      "brief": "Sie haben zwei Versuche für diese Bewertung. Das bedeutet, wenn Ihr ...",
+      "guidelines": "Ich habe die Informationen gelesen und stimme zu.",
+      "dos": "Do's und Don'ts",
+      "list": {
+        "point1": "Bewertung sollte rechtzeitig abgeschlossen werden.",
+        "point2": "Sie werden Zugang zu allen relevanten Ressourcen haben.",
+        "point3": "Sie müssen eine Kopie Ihrer Aufgabe oder Ihres Projekts aufbewahren.",
+        "point4": "Sie haben zwei Versuche für diese Bewertung. Das bedeutet, wenn Ihr erster Versuch nicht den Leistungskriterien entspricht, erhalten Sie die Möglichkeit, einmalig erneut einzureichen. Wenn Sie einen zweiten Versuch benötigen, muss dieser innerhalb von vier Wochen nach Rückgabe Ihres nicht erfolgreichen Versuchs eingereicht werden.",
+        "point5": "Stellen Sie sicher, dass alle Originalarbeiten auch mit Ihrer erneut eingereichten Arbeit vorgelegt werden.",
+        "point6": "Wenn Ihr Tutor Sie als noch nicht kompetent einschätzt, erhalten Sie mündliches und schriftliches Feedback zu den Verbesserungsbereichen.",
+        "point7": "Sie haben vier Wochen Zeit, Ihre Arbeit zur erneuten Bewertung einzureichen.",
+        "point8": "Die Einheit, die Sie absolvieren, wird als kompetent oder noch nicht kompetent bewertet. Nach erfolgreichem Abschluss dieser Einheit erhalten Sie eine Bescheinigung über die Teilnahme."
+      },
+      "do": {
+        "point1": "Seien Sie respektvoll und reaktionsschnell.",
+        "point2": "Bereiten Sie sich darauf vor, Zeit für den Kurs aufzuwenden.",
+        "title": "Do:"
+      },
+      "dont": {
+        "title": "Don't:",
+        "point1": "Ohne Plan fortfahren.",
+        "point2": "Scheuen Sie sich nicht, Hilfe von Trainern zu suchen."
+      }
+    },
+    "submitDialog": {
+      "title": "Erfolgreich eingereicht",
+      "desc": "Zum nächsten Modul",
+      "desc2": "Sie werden benachrichtigt, wenn die Bewertungskarte für die Bewertung bereit ist"
+    },
+    "feedback": {
+      "title": "Kursfeedback geben",
+      "rateUs": "Wie würden Sie uns bewerten?",
+      "comments": "Was können wir tun, um Ihr Erlebnis zu verbessern? (Optional)"
+    },
+    "learnMore": "Mehr erfahren",
+    "showMore": "Mehr anzeigen >",
+    "analysis": {
+      "title": "Antwortanalyse",
+      "transcript": "Transkript",
+      "grammar": "Grammatik",
+      "mistakes": "Keine grammatikalischen Fehler basierend auf der aktuellen Regelkonfiguration."
+    },
+    "warnUser": "Sind Sie sicher? Speichern Sie die Aufnahme, bevor Sie eine andere Ressource auswählen, sonst verlieren Sie Ihre Aufnahme.",
+    "scripts": "Skripte",
+    "quizs": "Quiz",
+    "script": "Skript",
+    "audios": "Audio-Clips",
+    "audioClip": "AudioClip",
+    "completed": "Abgeschlossen",
+    "instruction": "Anweisungen:",
+    "openInstruction": "Anweisungen",
+    "module": "Modul",
+    "contains": "Enthält",
+    "clips": "Clips",
+    "clip": "Clip",
+    "playingClip": "Clip wird abgespielt",
+    "practiceTitle": "Übung",
+    "assessment": "Bewertung",
+    "confirmation": "Bestätigung",
+    "confQues": "Möchten Sie die Bewertung einreichen?",
+    "yes": "Ja",
+    "no": "Nein",
+    "learning": "Lernen: ",
+    "notesHeader": "Notizen",
+    "tone": "Ton",
+    "toneDesc": "Wir haben die folgenden Emotionen in Ihrer Antwort gefunden",
+    "totalErrors": "Gesamtanzahl der Fehler:",
+    "desc1": "Für dieses Skript sollen Sie den Audio-Clip anhören und",
+    "desc2": "die Multiple-Choice-Frage entsprechend beantworten.",
+    "click": "Klicken",
+    "here": "hier",
+    "switchToMcq": "um in den MCQ-Modus zu wechseln",
+    "practice": "Übung: ",
+    "softSkills": "Soft Skills",
+    "pace": "Tempo",
+    "choiceOfWords": "Wortwahl",
+    "goodWords": "Gute Wörter",
+    "wordsPerMin": "Wörter pro Minute",
+    "silence": "Stille",
+    "domainSkills": "Fach- und operationale Fähigkeiten",
+    "understanding": "Verständnispunktzahl",
+    "attemptMcqs": "Beantworten Sie alle MCQs, um Ihre Verständnispunktzahl zu erhalten",
+    "myNotes": "Meine Notizen zu 'Skript ",
+    "notesPlaceholder": "Fügen Sie hier Ihre Notizen hinzu ..",
+    "quizHeader": "Quiz",
+    "question": "Frage",
+    "readContext": "Lesen Sie den Anrufhintergrund, um einen Kontext des Gesprächs zu erhalten ..."
+  },
+  "navbar": {
+    "help": "HILFE",
+    "account": "Kontoeinstellungen",
+    "admin": "Verwaltung",
+    "api": "API",
+    "docs": "Dokumente",
+    "lang": "Sprache",
+    "theme": "Themen"
+  },
+  "password": {
+    "title": "Passwort für [<strong>{{username}}</strong>]",
+    "form": {
+      "button": "Speichern"
+    },
+    "messages": {
+      "error": "<strong>Ein Fehler ist aufgetreten!</strong> Das Passwort konnte nicht geändert werden.",
+      "success": "<strong>Passwort geändert!</strong>"
+    }
+  },
+  "register": {
+    "title": "Registrierung",
+    "form": {
+      "button": "Registrieren"
+    },
+    "messages": {
+      "validate": {
+        "login": {
+          "required": "Ihr Benutzername ist erforderlich.",
+          "minlength": "Ihr Benutzername muss mindestens 1 Zeichen lang sein.",
+          "maxlength": "Ihr Benutzername darf nicht länger als 50 Zeichen sein.",
+          "pattern": "Ihr Benutzername darf nur Buchstaben und Ziffern enthalten."
+        }
+      },
+      "success": "<strong>Registrierung gespeichert!</strong> Bitte überprüfen Sie Ihre E-Mail zur Bestätigung.",
+      "error": {
+        "fail": "<strong>Registrierung fehlgeschlagen!</strong> Bitte versuchen Sie es später erneut.",
+        "userexists": "<strong>Anmeldename bereits registriert!</strong> Bitte wählen Sie einen anderen.",
+        "emailexists": "<strong>E-Mail ist bereits in Gebrauch!</strong> Bitte wählen Sie eine andere."
+      }
+    }
+  },
+  "reset": {
+    "request": {
+      "title": "Setzen Sie Ihr Passwort zurück",
+      "form": {
+        "button": "Passwort zurücksetzen"
+      },
+      "messages": {
+        "info": "Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben",
+        "success": "Überprüfen Sie Ihre E-Mails, um Details zum Zurücksetzen Ihres Passworts zu erhalten."
+      }
+    },
+    "finish": {
+      "title": "Passwort zurücksetzen",
+      "form": {
+        "button": "Neues Passwort bestätigen"
+      },
+      "messages": {
+        "info": "Wählen Sie ein neues Passwort",
+        "success": "<strong>Ihr Passwort wurde zurückgesetzt.</strong> Bitte ",
+        "keymissing": "Der Zurücksetzungsschlüssel fehlt.",
+        "error": "Ihr Passwort konnte nicht zurückgesetzt werden. Denken Sie daran, dass eine Passwortanforderung nur 24 Stunden gültig ist."
+      }
+    }
+  },
+  "score": {
+    "level": "Stufe:",
+    "category": "Kategorie",
+    "grade": "Note",
+    "total": "Gesamtpunktzahl",
+    "performance": "Leistung",
+    "badge": "Erhaltene Abzeichen",
+    "sentiment": "Stimmung",
+    "score": "Erreichte Punktzahl : ",
+    "view": "Zertifikat ansehen",
+    "share": "Bericht teilen",
+    "download": "Bericht herunterladen",
+    "choice": "Wortwahl",
+    "seek": "Feedback einholen",
+    "completion": "Abschlussdatum:",
+    "engagement": "Engagement",
+    "pace": "Tempo",
+    "grammar": "Grammatik",
+    "understanding": "Verständnis",
+    "relevance": "Relevanz",
+    "list": "Liste der Skripte",
+    "soft": "Sozialkompetenz",
+    "domain": "Fach- und Betriebskompetenz",
+    "blank": "Noch keine Daten verfügbar!",
+    "words": "Durchschnittliche Wörter pro Minute",
+    "noBadge": "Noch keine Abzeichen erhalten!",
+    "average": "Durchschnittliche Prozentsatz",
+    "domainAndOperational": "Fach- & Betriebskompetenz",
+    "understandingScore": "Verständnis-Punktzahl",
+    "relevanceScore": "Relevanz-Punktzahl",
+    "scriptLevelBtnText": "Einblicke auf Skriptebene ansehen",
+    "moduleLevelBtnText": "Einblicke auf Modulebene ansehen",
+    "wordsPerMin": "Wörter pro Minute",
+    "playAudioClips": "Audiodateien abspielen",
+    "transcriptHeading": "Audionachricht und Transkript",
+    "scriptsInModule": "Skripte im Modul",
+    "prevClip": "Vorherige Aufnahme",
+    "nextClip": "Nächste Aufnahme",
+    "wordsMatched": "Anzahl der übereinstimmenden Wörter",
+    "viewClipDetails": "Details der Aufnahmeebene ansehen",
+    "viewScriptDetails": "Details der Skriptebene ansehen",
+    "listOfScripts": "Liste der Skripte im Modul",
+    "audioClips": "Audiodateien im Skript",
+    "clipsInScript": "Liste der Aufnahmen im Skript",
+    "lessUnderstanding": "Sie sollten das Modul noch einmal durchgehen, um ein besseres Verständnis zu erlangen.",
+    "betterUnderstanding": "Gute Arbeit! Weiterlernen, um Ihr Verständnis zu verbessern.",
+    "lessRelevance": "Versuchen Sie, Kundenanfragen gemäß der Anleitung und im Bezug zum Szenario zu beantworten.",
+    "betterRelevance": "Gute Arbeit! Verwenden Sie Hinweise, um die besten Antworten auf Kundenanfragen zu finden."
+  },
+  "assessment": {
+    "home": "Zuhause",
+    "scoreAnalysis": "Punkteanalyse",
+    "overallScore": "Gesamtpunktzahl",
+    "completion": "Abschluss",
+    "date": "Datum",
+    "noDataAvailable": "Noch keine Daten verfügbar!",
+    "noBadgesEarned": "Noch keine Abzeichen verdient!",
+    "performance": "Leistung",
+    "grade": "Note",
+    "na": "Nicht verfügbar",
+    "youHave": "Sie haben",
+    "passed": "bestanden",
+    "failed": "nicht bestanden",
+    "theAssessment": "die Bewertung",
+    "totalScore": "Gesamtpunktzahl",
+    "softSkills": "Soft Skills",
+    "grammar": "Grammatik",
+    "choiceOfWords": "Wortwahl",
+    "domainOperational": "Fach- & Betriebskenntnisse",
+    "module": "Modul",
+    "viewCertificate": "Zertifikat anzeigen",
+    "shareReport": "Bericht teilen",
+    "viewScriptInsights": "Skript-Einblicke anzeigen",
+    "viewModuleInsights": "Modul-Einblicke anzeigen",
+    "scriptsInModule": "Skripte im Modul",
+    "script": "Skript",
+    "viewClipDetails": "Clip-Details anzeigen",
+    "audioClipsScript": "Audio-Clips im Skript",
+    "clip": "Clip",
+    "viewScriptDetails": "Skript-Details anzeigen",
+    "audioResponseTranscript": "Audioantwort und Transkript",
+    "noTranscript": "Kein Transkript verfügbar!",
+    "numberOfErr": "Anzahl der Fehler:",
+    "wordsMatched": "Übereinstimmende Wörter:",
+    "wordsPerMinute": "Wörter pro Minute",
+    "agentPace": "Tempo des Agenten"
+  },
+  "script": {
+    "clip": {
+      "error": {
+        "clipName": {
+          "reqd": "Clip-Name darf nicht leer sein.",
+          "char": "Sonderzeichen außer Bindestrich(-), Unterstrich(_), Punkt(.) sind nicht erlaubt."
+        },
+        "startTime": {
+          "format": "Bitte geben Sie die Startzeit im richtigen Format an.",
+          "greater": "Startzeit darf nicht größer als Endzeit sein.",
+          "duration": "Clipdauer sollte weniger als 60 Sekunden betragen."
+        },
+        "endTime": {
+          "format": "Bitte geben Sie die Endzeit im richtigen Format an.",
+          "audio": "Endzeit darf nicht länger als die Audiolaufzeit sein."
+        },
+        "tags": "Bitte geben Sie gültige Daten an. Tags dürfen keine Sonderzeichen enthalten, mindestens ein Tag ist notwendig (maximale Länge ist 255 Zeichen).",
+        "bestAnswers": "Bitte geben Sie gültige Daten an. Beste Antworten sollten im Bereich von 1-650 Zeichen liegen.",
+        "inference": "Bitte geben Sie gültige Daten an. (Maximale Länge beträgt 350 Zeichen.)"
+      },
+      "button": {
+        "reset": "Zurücksetzen",
+        "save": "Speichern",
+        "close": "Schließen",
+        "delete": "Clip löschen"
+      }
+    }
+  },
+  "sessions": {
+    "title": "Aktive Sitzungen für [<strong>{{username}}</strong>]",
+    "table": {
+      "ipaddress": "IP-Adresse",
+      "useragent": "User Agent",
+      "date": "Datum",
+      "button": "Ungültig machen"
+    },
+    "messages": {
+      "success": "<strong>Sitzung ungültig gemacht!</strong>",
+      "error": "<strong>Ein Fehler ist aufgetreten!</strong> Die Sitzung konnte nicht ungültig gemacht werden."
+    }
+  },
+  "settings": {
+    "title": "Benutzereinstellungen für [<strong>{{username}}</strong>]",
+    "form": {
+      "firstname": "Vorname",
+      "firstname.placeholder": "Ihr Vorname",
+      "lastname": "Nachname",
+      "lastname.placeholder": "Ihr Nachname",
+      "language": "Sprache",
+      "button": "Speichern"
+    },
+    "messages": {
+      "error": {
+        "fail": "<strong>Ein Fehler ist aufgetreten!</strong> Einstellungen konnten nicht gespeichert werden.",
+        "emailexists": "<strong>E-Mail wird bereits verwendet!</strong> Bitte wählen Sie eine andere."
+      },
+      "success": "<strong>Einstellungen gespeichert!</strong>",
+      "validate": {
+        "firstname": {
+          "required": "Ihr Vorname ist erforderlich.",
+          "minlength": "Ihr Vorname muss mindestens 1 Zeichen lang sein",
+          "maxlength": "Ihr Vorname darf nicht länger als 50 Zeichen sein"
+        },
+        "lastname": {
+          "required": "Ihr Nachname ist erforderlich.",
+          "minlength": "Ihr Nachname muss mindestens 1 Zeichen lang sein",
+          "maxlength": "Ihr Nachname darf nicht länger als 50 Zeichen sein"
+        }
+      }
+    }
+  },
+  "trackProgress": {
+    "info": {
+      "ongoing-text1": "Sie haben",
+      "ongoing-text2": "laufende Kurse. Weiter so!",
+      "basicInfo": "Grundinformation",
+      "has": "hat"
+    },
+    "semanticParameters": {
+      "grammar": "Grammatik",
+      "choiceOfWords": "Wortwahl",
+      "batchAverage": "Durchschnitt des Batches"
+    },
+    "insights": {
+      "title": "Einblicke",
+      "noData": "Noch keine Einblicke bereitgestellt!"
+    },
+    "badges": {
+      "title": "Erhaltene Abzeichen",
+      "noData": "Noch keine Abzeichen verdient!"
+    },
+    "metrics": {
+      "title": "Leistungsmetriken",
+      "overallCourseCompletion": "Gesamter Kursabschluss in Prozent",
+      "practiceDuration": "Übungsdauer (hh:mm:ss)",
+      "enrolledCourseCompletion": "Abschlussquote eingeschriebener Kurse",
+      "avgScore": "Durchschnittliche Punktzahl",
+      "increase": "Zunahme",
+      "decrease": "Abnahme"
+    },
+    "progress": {
+      "learnMore": "Erfahren Sie mehr",
+      "placeholder": "Fortschritt in verschiedenen Fähigkeiten"
+    },
+    "ongoingCourses": {
+      "title": "Laufende Kurse"
+    },
+    "pastPerformance": {
+      "title": "Vergangene Leistung",
+      "assessments": {
+        "title": "Abgeschlossene Bewertungen",
+        "noData": "Noch keine Bewertungen abgeschlossen!",
+        "columns": {
+          "assessment": "Bewertung",
+          "score": "Punktzahl",
+          "batchAvg": "Durchschnitt des Batches",
+          "completionDate": "Datum des Abschlusses"
+        }
+      },
+      "agentLine": {
+        "title": "Agentenreise",
+        "dropdownValues": [
+          "Letzte 5 Bewertungen",
+          "Letzte 10 Bewertungen",
+          "Letzte 15 Bewertungen"
+        ]
+      }
+    },
+    "episodic": {
+      "title": "Leistung bei episodischen Parametern",
+      "episodicDoughnut": {
+        "title": "Episodischer Parameter",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"]
+      },
+      "circleProgress1": {
+        "title": "Rate der Erstlösung bei Anrufen",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"],
+        "centerAvg": "Durchschnitt des Centers",
+        "target": "Ziel",
+        "increase": "Zunahme",
+        "decrease": "Abnahme"
+      },
+      "circleProgress2": {
+        "title": "Übertragungsrate",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"],
+        "centerAvg": "Durchschnitt des Centers",
+        "target": "Ziel",
+        "increase": "Zunahme",
+        "decrease": "Abnahme"
+      },
+      "circleProgress3": {
+        "title": "Eskalationen",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"],
+        "centerAvg": "Durchschnitt des Centers",
+        "target": "Ziel",
+        "increase": "Zunahme",
+        "decrease": "Abnahme"
+      }
+    },
+    "syntactic": {
+      "title": "Leistung bei syntaktischen, semantischen Parametern",
+      "sentiment": {
+        "title": "Stimmung",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"]
+      },
+      "semantic": {
+        "title": "Semantische Parameter",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"]
+      },
+      "participationDoughnut": {
+        "title": "Beteiligungsverhältnis",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"]
+      },
+      "toneDoughnut": {
+        "title": "Platzhalter für Ton",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"]
+      },
+      "pitchDoughnut": {
+        "title": "Platzhalter für Tonhöhe und Tempo",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"]
+      },
+      "interruptionDoughnut": {
+        "title": "Platzhalter für Unterbrechung",
+        "dropdownValues": ["Wöchentlich", "Vierteljährlich", "Jährlich"]
+      },
+      "goalCompletion": {
+        "title": "Zielerreichung",
+        "dropdownValues": ["Unvollständig", "Abgeschlossen"]
+      }
+    },
+    "plannedVsActual": {
+      "title": "Geplante vs Tatsächliche Fortschritte",
+      "dropdownValues": ["Vierteljährlich", "Jährlich"]
+    },
+    "recommendations": {
+      "title": "Empfehlungen",
+      "noData": "Noch keine Empfehlungen bereitgestellt!"
+    },
+    "softSkillPerformance": {
+      "title": "Leistung bei Soft Skills",
+      "sentiment": {
+        "title": "Stimmung",
+        "positive": "Positiv",
+        "negative": "Negativ",
+        "neutral": "Neutral"
+      },
+      "engagement": "Engagement",
+      "pace": "Tempo",
+      "avgPercent": "Durchschnittlicher Prozentsatz"
+    },
+    "shareReport": {
+      "btnText": "Bericht teilen",
+      "title": "Teilen Sie den Fortschrittsbericht",
+      "certificateTitle": "Teilen Sie das Bewertungszertifikat",
+      "certificate": "Zertifikat",
+      "assessmentTitle": "Teilen Sie den Bewertungsbericht",
+      "label": "An",
+      "placeholder": "E-Mail-Adresse eingeben",
+      "required": "E-Mail ist erforderlich",
+      "validEmail": "Bitte geben Sie eine gültige E-Mail-Adresse an",
+      "subject": "Betreff",
+      "subjectMsg": "Fortschrittsbericht",
+      "assessmentSubject": "Bewertungsbericht",
+      "innerCard": {
+        "msgBody": "Bitte finden Sie den Link, um den Fortschrittsbericht anzusehen",
+        "link": "Fortschrittsbericht",
+        "warning": "Inhalt innerhalb der gestrichelten Linien kann nicht geändert werden."
+      },
+      "cancel": "Abbrechen",
+      "send": "Senden"
+    },
+    "performanceOnSkills": {
+      "title": "Leistung bei fachlichen & betrieblichen Fähigkeiten",
+      "understanding": "Verständnisbewertung",
+      "relevance": "Relevanzbewertung"
+    },
+    "viewAll": "Alle ansehen",
+    "close": "Schließen",
+    "weekly": "Wöchentlich",
+    "quarterly": "Vierteljährlich",
+    "daily": "Täglich",
+    "yearly": "Jährlich",
+    "monthly": "Monatlich",
+    "all": "Alle",
+    "incomplete": "Unvollständig",
+    "completed": "Abgeschlossen",
+    "centerAvg": "Durchschnitt des Centers",
+    "target": "Ziel",
+    "increase": "Zunahme",
+    "decrease": "Abnahme",
+    "feedback": "Rückmeldung",
+    "insightsAndRecommendations": "Einblicke und Empfehlungen",
+    "noData": "Noch keine Daten verfügbar!",
+    "toastr": {
+      "title": "Erfolg!",
+      "messageMail": "Mail wurde erfolgreich versendet"
+    },
+    "noBadge": "Noch keine Abzeichen verdient. Sie verdienen Abzeichen, wenn Sie Kurse abschließen.",
+    "noCourses": "Keine Kurse zum Anzeigen!",
+    "pageData": "Seitendaten anzeigen für:",
+    "noSkills": "Keine Fähigkeiten in dieser Kategorie!"
+  },
+  "trainerDashboard": {
+    "info": {
+      "role": "Trainer",
+      "coursesCreated": "Erstellte Kurse",
+      "courseEnrollments": "Kursanmeldungen",
+      "totalTrainees": "Gesamtzahl der Auszubildenden",
+      "basicInfo": "Grundinformationen"
+    },
+    "insights": {
+      "title": "Einblicke",
+      "noData": "Noch keine Einblicke bereitgestellt!"
+    },
+    "enrolledAgents": "Eingeschriebene Agenten",
+    "searchTrainees": {
+      "placeholder": "Auszubildende suchen",
+      "searchedFor": "Gesucht nach: ",
+      "noResults": "Keine Ergebnisse gefunden !!"
+    },
+    "sortByScores": {
+      "title": "Nach Punktzahl sortieren",
+      "asc": "Aufsteigend",
+      "desc": "Absteigend"
+    },
+    "traineeCard": {
+      "avgScore": "Durchschnittliche Punktzahl",
+      "completionPercentage": "Abschlussquote",
+      "details": "Auszubildendendetails"
+    },
+    "viewAll": {
+      "title": "Alle anzeigen",
+      "heading": "Eingeschriebene Agenten",
+      "close": "Schließen",
+      "columns": {
+        "name": "Agentenname",
+        "avgScore": "Durchschnittliche Punktzahl",
+        "completionPercentage": "Abschlussquote",
+        "grammar": "Grammatik",
+        "pace": "Tempo",
+        "silence": "Stille",
+        "sentiment": "Stimmung",
+        "relevanceScore": "Relevanzwertung",
+        "understandingScore": "Verständniswertung",
+        "hoursTrained": "Ausbildungsstunden"
+      },
+      "noData": "NA"
+    },
+    "noTraineeData": "Keine Auszubildenden zu zeigen!"
+  },
+  "trainingBank": {
+    "home": {
+      "title": "Trainingsbank",
+      "subTitle": "Überprüfen Sie die Anrufe, erstellen Sie Skripte und fügen Sie die besten in die Trainingsbank ein.",
+      "myScripts": "Meine Skripte",
+      "search": "Suchen",
+      "addButton": "Zur Trainingsbank hinzufügen",
+      "searchTitle": "Skripte in der Trainingsbank suchen",
+      "searchSubTitle": "Suchen Sie Anrufaufzeichnungen in der Trainingsbank mithilfe von Tags",
+      "searchInfo": "Drücken Sie Enter, um ein Such-Tag hinzuzufügen.",
+      "overview": "Übersicht der Trainingsbank",
+      "overviewCount": "Anzahl der Aufzeichnungen in der Trainingsbank",
+      "tableTitle": "Aufzeichnungen der Trainingsbank",
+      "tableTitleSearch": "Suchergebnisse",
+      "enterTag": "Tag eingeben",
+      "back": "Zurück",
+      "table": {
+        "headers": {
+          "script": "Skript",
+          "callId": "Anruf-ID",
+          "tags": "Zugehörige Tags",
+          "duration": "Dauer",
+          "creator": "Ersteller",
+          "action": "Audio",
+          "scriptLevel": "Skriptebene",
+          "clips": "Clips",
+          "type": "Typ",
+          "scriptStatus": "Skriptstatus"
+        }
+      }
+    },
+    "addContent": {
+      "heading": "Inhalt zur Trainingsbank hinzufügen",
+      "subHeading": "Wählen Sie die Quelle der Anrufaufzeichnungen",
+      "historicalCallRecords": "Historische Anrufaufzeichnungen",
+      "recordAudio": "Audio aufnehmen",
+      "uploadAudio": "Hochladen",
+      "recordAudioClip": "Audio-Clip aufnehmen"
+    },
+    "record": {
+      "learning": "Lernen",
+      "assessment": "Bewertung",
+      "clipDetails": "Clip-Details",
+      "micClick": "Klicken Sie auf die Mikrofontaste, um die Aufnahme zu starten",
+      "stop": "Stopp",
+      "retry": "Erneut versuchen",
+      "save": "Speichern",
+      "recording": "Aufnahme...",
+      "audioClips": "Audioclips",
+      "addNewClip": "Neuen Clip hinzufügen +",
+      "proceed": "Fortfahren",
+      "recordInfo": "Die Aufnahme sollte mit den Aussagen des Agenten beginnen, gefolgt von den Aussagen des Kunden. Bitte stellen Sie sicher, dass Sie die Aussagen des Agenten und des Kunden in zwei getrennten Stimmen aufzeichnen.",
+      "recordAssessmentInfo": "Die Aufnahme sollte nur die Aussagen des Kunden enthalten."
+    },
+    "upload": {
+      "dragAndDrop": "Ziehen und ablegen",
+      "uploadAudio": "Hochladen",
+      "or": "ODER",
+      "browseFile": "Datei durchsuchen",
+      "cancel": "Abbrechen",
+      "proceed": "Fortfahren",
+      "uploadInfo": "Bitte laden Sie eine Dual-Channel-Audioaufnahme (kompletter Anruf) hoch, die sowohl die Aussagen des Agenten als auch des Kunden enthält. Bitte stellen Sie sicher, dass der Anruf mit der Aussage des Agenten beginnt."
+    },
+    "createClips": {
+      "headingRecord": "Skript für Aufnahme erstellen",
+      "headingUpload": "Skript für Upload erstellen",
+      "headingHistorical": "Skript für Historisches erstellen",
+      "subHeating": "Clips und Details",
+      "validation": "Alle Felder sind erforderlich, sofern nicht optional angegeben",
+      "learning": "Lernen",
+      "assessment": "Bewertung",
+      "autoGenerateClips": "Clips automatisch generieren",
+      "audioClips": "Clips",
+      "addNewClip": "Neuen Clip hinzufügen",
+      "combineClips": "Clips zu einem gesamten Anruf kombinieren",
+      "back": "Zurück",
+      "addScriptDetails": "Skriptdetails hinzufügen",
+      "createClippings": "Clippings erstellen",
+      "previewVideo": "Vorschau-Video",
+      "proceedandReview": "Fortfahren und überprüfen",
+      "submit": "Einreichen"
+    },
+    "clipDetails": {
+      "clipDetails": "Clip-Details",
+      "clippingName": "Clipping-Name",
+      "tags": "Tags",
+      "clipPlaceholder": "Geben Sie den Namen des Audio-Clippings ein",
+      "startTime": "Startzeit",
+      "endTime": "Endzeit",
+      "inference": "Schlussfolgerung (optional)",
+      "keyTakeaway": "Haupterkenntnis (optional)",
+      "optional": "Optional",
+      "inferencePlaceholder": "Geben Sie hier Ihren Text ein ..",
+      "hints": "Hinweise (optional)",
+      "bestAnswers": "Beste Antworten",
+      "includeAgentsAnswer": "Antwort des Agenten in die besten Antworten einbeziehen",
+      "inferencemandatory": "Schlussfolgerung",
+      "keyTakeawayMandatory": "Haupterkenntnis",
+      "multipleChoiceQuestion": "Multiple-Choice-Frage"
+    },
+    "scriptDetails": {
+      "scriptDetails": "Skriptdetails",
+      "callBackground": "Anrufhintergrund",
+      "callBackgroundPlaceholder": "Geben Sie den Anrufhintergrund ein",
+      "scriptLevel": "Skriptebene",
+      "scriptNameValidation": "Der Skriptname darf nicht leer sein.",
+      "validation": "Der Anrufhintergrund darf nicht leer sein.",
+      "inclusion": "Einschluss",
+      "inclusionPlaceholder": "Geben Sie den Einschluss ein",
+      "exclusion": "Ausschluss",
+      "exclusionPlaceholder": "Geben Sie den Ausschluss ein",
+      "status": "Status:"
+    },
+    "audioClipsintheScript": {
+      "audioClipsintheScript": "Clips im Skript",
+      "audioClipName": "Clip-Name",
+      "associatedTags": "Zugehörige Tags",
+      "clipDuration": "Clip-Dauer",
+      "rearrange": "Neu anordnen"
+    },
+    "stepper": {
+      "stepper1": "Audio-Clips erstellen",
+      "stepper2": "Skriptebenendetails",
+      "stepper3": "Überprüfen und einreichen"
+    },
+    "dataSource": {
+      "historical": "Historische Anrufaufzeichnungen",
+      "record": "Audio aufnehmen",
+      "upload": "Vom lokalen System hochladen",
+      "callSource": "Anrufquelle"
+    },
+    "historical": {
+      "filter": {
+        "title": "Suche Anrufaufzeichnungen mit Tags",
+        "subTitle": "Klicken Sie auf das Plus-Symbol, um Tags hinzuzufügen"
+      }
+    },
+    "mcq": {
+      "mcq": "Multiple-Choice-Fragen",
+      "question": "Frage",
+      "questionPlaceholder": "Frage eingeben",
+      "answersCheck": "Markieren Sie die richtige Antwort mit den Kontrollkästchen",
+      "addMCQ": "MCQ hinzufügen",
+      "reset": "Zurücksetzen",
+      "deleteQuestion": "Frage löschen"
+    },
+    "historicalCalls": {
+      "filter": "Filter",
+      "tone": "Ton:",
+      "sentiment": "Stimmung:",
+      "wordCloud": "Wortwolke",
+      "buttons": {
+        "clear": "Löschen",
+        "apply": "Anwenden"
+      }
+    },
+    "dataGrid": {
+      "title": "Liste der Anrufaufzeichnungen",
+      "table": {
+        "headers": {
+          "callId": "Anruf-ID",
+          "tags": "Zugehörige Tags",
+          "duration": "Anrufdauer (mm:ss)",
+          "action": "Audio clippen"
+        }
+      }
+    },
+    "createSnippet": {
+      "title": "Audio clippen",
+      "subTitle": "Klicken Sie auf die Wellenform, um den Bereich für das Clippen von Audio auszuwählen"
+    },
+    "snippetWaveSurfer": {
+      "autoClip": "Auto-Clip",
+      "clip": "Clip",
+      "cancel": "Abbrechen"
+    },
+    "bankGrid": {
+      "table": {
+        "headers": {
+          "id": "Index",
+          "startPosition": "Startposition",
+          "endPosition": "Endposition",
+          "tags": "Zugehörige Tags",
+          "action": "Aktionen"
+        }
+      }
+    },
+    "addTag": {
+      "title": "Tags hinzufügen",
+      "subTitle": "Klicken Sie auf das Plus-Symbol, um Tags hinzuzufügen"
+    },
+    "recordUploadAudio": {
+      "record": "Audio aufnehmen",
+      "upload": "Audio hochladen",
+      "addButton": "Zur Trainingsbank hinzufügen"
+    },
+    "recordSnippet": {
+      "info": "Klicken Sie auf die Mikrofontaste, um die Aufnahme zu starten",
+      "recording": "Aufnahme...",
+      "stopButton": "Stopp",
+      "retryButton": "Erneut versuchen"
+    },
+    "uploadSnippet": {
+      "format": "Erlaubtes Format:",
+      "size": "Maximale Größe:",
+      "newFile": "Neue Datei hochladen"
+    },
+    "toastr": {
+      "title": "Erfolg!",
+      "message": "Audio zur Trainingsbank hinzugefügt"
+    },
+    "scriptError": {
+      "audio-encoding-issue": "Problem mit der Audio-Datei-Kodierung",
+      "end-time-exceeds-duration": "Endzeit darf nicht länger als die Anrufdauer sein",
+      "failed-transcription-low-quality-audio": "Transkription nicht möglich. Schlechte oder niedrige Audioqualität",
+      "internal-server-error": "Allgemeiner Fehler"
+    },
+    "trainingBankUIErrors": {
+      "callBackgorundlengthValidation": "Hintergrund des Anrufs darf nicht mehr als 1000 Zeichen überschreiten.",
+      "scriptNamelengthValidation": "Skriptname darf nicht mehr als 100 Zeichen überschreiten.",
+      "emptyCallBackground": "Noch kein Anrufhintergrund hinzugefügt!",
+      "emptyScriptName": "Noch kein Skriptname hinzugefügt!",
+      "emptySandboxInstance": "Noch keine Sandbox-Instanz hinzugefügt!"
+    },
+    "note": {
+      "learningNote": "Da das Skript zum Lernen dient, werden sowohl die Aussage des Kunden als auch die Antwort des Agenten in jedem Clip enthalten sein.",
+      "assessmentNote": "Da das Skript zur Bewertung dient, wird nur die Aussage des Kunden in jedem Clip enthalten sein."
+    },
+    "validationModal": {
+      "submissionFailure": "Einreichung fehlgeschlagen",
+      "clips": "Clips",
+      "clipValidation": "Es sollte mindestens ein Clip vorhanden sein.",
+      "mcqList": "MCQ-Liste",
+      "assessmentValidation": "Bewertung sollte 1-5 MCQs enthalten.",
+      "close": "Schließen"
+    },
+    "submitModal": {
+      "heading": "Skript erfolgreich erstellt",
+      "description": "Dieses Skript wird den Trainern in ihrer Trainingsbank zur Verfügung stehen",
+      "dismissButton": "Schließen",
+      "confirmButton": "Neues Skript erstellen",
+      "ingestedResourseDetail": {
+        "heading": "Erfolg",
+        "description": "Der Anruf ist als qualitätsgeprüft markiert",
+        "confirmButton": "OK"
+      },
+      "reviewAndSubmit": {
+        "heading": "Erfolgreich eingereicht",
+        "description": "Dieser Kurs wird den Agenten in ihrem Simulierten Lernkurs-Repository zur Verfügung stehen",
+        "dismissButton": "Schließen",
+        "confirmButton": "Neuen Kurs erstellen"
+      }
+    }
+  },
+  "userManagement": {
+    "home": {
+      "title": "Benutzer",
+      "createLabel": "Einen neuen Benutzer erstellen",
+      "createOrEditLabel": "Einen Benutzer erstellen oder bearbeiten"
+    },
+    "created": "Ein neuer Benutzer wird mit der Kennung {{ param }} erstellt",
+    "updated": "Ein Benutzer wird mit der Kennung {{ param }} aktualisiert",
+    "deleted": "Ein Benutzer wird mit der Kennung {{ param }} gelöscht",
+    "delete": {
+      "question": "Sind Sie sicher, dass Sie den Benutzer {{ login }} löschen möchten?"
+    },
+    "detail": {
+      "title": "Benutzer"
+    },
+    "login": "Anmeldung",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "activated": "Aktiviert",
+    "deactivated": "Deaktiviert",
+    "profiles": "Profile",
+    "langKey": "Sprache",
+    "createdBy": "Erstellt von",
+    "createdDate": "Erstellungsdatum",
+    "lastModifiedBy": "Geändert von",
+    "lastModifiedDate": "Änderungsdatum"
+  },
+  "case": {
+    "case": "Fallinfo",
+    "balance": "Ausstehender Saldo",
+    "claim": "Ausstehende Forderungen",
+    "origin": "Herkunft",
+    "id": "Mitglieds-ID",
+    "accNo": "Kontonummer",
+    "plan": "Tarifname",
+    "subDate": "Beginn der Police",
+    "renewDate": "Verlängerungsdatum",
+    "subType": "Abonnementtyp",
+    "current": "Aktuell",
+    "overdue": "Überfällig",
+    "claimed": "Insgesamt beanspruchter Betrag",
+    "reimbursed": "Insgesamt erstatteter Betrag",
+    "telecom": {
+      "originId": "Herkunft",
+      "originInfo": "Kontonummer"
+    },
+    "healthcare": {
+      "originId": "Mitglieds-ID",
+      "originInfo": "Tarifname"
+    }
+  },
+  "state": {
+    "title": "Gesprächszustand",
+    "intent": "Absicht"
+  },
+  "history": {
+    "noData": "Keine Aufzeichnungen verfügbar!",
+    "call": "Anrufverlauf",
+    "appointment": "Terminverlauf",
+    "claim": "Forderungsverlauf",
+    "payment": "Zahlungsverlauf",
+    "invoice": "Vorherige Rechnungen",
+    "order": "Bestellverlauf",
+    "ticket": "Ticketverlauf",
+    "feedback": "Feedback",
+    "notes": "ANMERKUNGEN",
+    "issue": "Problem",
+    "cause": "Ursache",
+    "resolution": "Lösung",
+    "channel": "Kanal",
+    "assignee": "Zugewiesen an"
+  },
+  "call": {
+    "ring": "Klingeln",
+    "noCall": "Kein laufender Anruf",
+    "score": "CX-Bewertung"
+  },
+  "packsCard": {
+    "recommended": "Empfohlen",
+    "packs": "Pakete",
+    "plans": "Tarife",
+    "validity": "Gültigkeit",
+    "data": "Daten",
+    "calls": "Anrufe",
+    "sms": "SMS",
+    "select": "Auswählen"
+  },
+  "reimbursement": {
+    "title": "Erstattungsdetails",
+    "date": "Datum",
+    "treatment": "Behandlung",
+    "provider": "Anbieter",
+    "eligible": "Berechtigter Betrag",
+    "availed": "In Anspruch genommener Betrag"
+  },
+  "transcript": {
+    "title": "Live-Transkripte",
+    "type": "Schreiben..."
+  },
+  "usage": {
+    "title": "Verlauf der Nutzung",
+    "overview": "Übersicht",
+    "data": "Daten",
+    "sms": "SMS",
+    "voice": "Stimme",
+    "unbilled": "Aktuell nicht abgerechnet",
+    "billDate": "Nächstes Rechnungsdatum",
+    "daysLeft": "Anzahl verbleibender Tage",
+    "avg": "DURCHSCHNITTLICHE NUTZUNG",
+    "noData": "Keine Daten verfügbar!"
+  },
+  "cortexWidgets": {
+    "bestDoc": "Meistverwendete Dokumente",
+    "noData": "Keine Daten verfügbar!",
+    "close": "Schließen",
+    "ces": {
+      "target": "ZIEL"
+    },
+    "searchBox": {
+      "placeholder": "Suche"
+    },
+    "docResult": {
+      "confidence": "Vertrauen"
+    },
+    "entityHeading": {
+      "label": "Zeigt Ergebnisse für:"
+    },
+    "gaugeScore": {
+      "trends": "Trends ansehen",
+      "details": "Details ansehen",
+      "showList": "Agentenliste anzeigen"
+    },
+    "graphInfo": {
+      "prod": "Produktivität des Teams",
+      "trends": "Trends ansehen",
+      "details": "Details ansehen",
+      "more": "Mehr anzeigen"
+    },
+    "heading": {
+      "found": "Gefunden",
+      "ansIn": "Antworten in",
+      "docs": "Verschiedene Dokumente"
+    },
+    "viewAll": "Alle anzeigen",
+    "listModal": {
+      "heading": "Agentenliste"
+    },
+    "liveTranscript": {
+      "heading": "Live-Transkripte"
+    },
+    "progressBarScore": {
+      "heading": "Kundenverbindungsbewertung",
+      "score": "BEWERTUNG",
+      "target": "ZIEL",
+      "details": "DETAILS ANSEHEN",
+      "trends": "TRENDS ANSEHEN"
+    },
+    "progressDataCard": {
+      "teamAvg": "TEAMDURCHSCHNITT",
+      "targetScore": "ZIELPUNKTZAHL",
+      "details": "DETAILS ANSEHEN",
+      "trends": "TRENDS ANSEHEN",
+      "more": "MEHR ANZEIGEN"
+    },
+    "relSearch": "Verwandte Suchanfragen",
+    "sentiment": {
+      "heading": "Kundenstimmung",
+      "activeCalls": "Aktive Anrufe",
+      "longestCall": "Längster Anruf",
+      "avgHoldTime": "Durchschn. Haltezeit",
+      "avgSilenceTime": "Durchschn. Stillezeit"
+    },
+    "viewRequestModal": {
+      "heading": "Rückrufanfragen"
+    }
+  },
+  "Case Info": "Fallinformationen",
+  "Outstanding Claims": "Offene Ansprüche",
+  "Member Id": "Mitgliedsnummer",
+  "Plan Name": "Planname",
+  "Policy Start Date": "Beginn der Police",
+  "Renewal Date": "Erneuerungsdatum",
+  "Total Claimed Amount": "Gesamtforderungsbetrag",
+  "Total Reimbursed Amount": "Gesamterstattungsbetrag",
+  "Conversation State": "Gesprächszustand",
+  "Reimbursement Details": "Erstattungsdetails",
+  "Claim History": "Anspruchsgeschichte",
+  "Call History": "Anrufhistorie",
+  "Ticket History": "Ticket-Historie",
+  "Origin": "Herkunft",
+  "Account Number": "Kontonummer",
+  "Subscription Type": "Abonnementtyp",
+  "Outstanding Balance": "Ausstehender Saldo",
+  "Current": "Aktuell",
+  "Overdue": "Überfällig",
+  "Payment History": "Zahlungshistorie",
+  "Payment Invoices": "Zahlungsrechnungen",
+  "Order History": "Bestellhistorie",
+  "Usage History": "Nutzungshistorie",
+  "Overview": "Übersicht",
+  "Data": "Daten",
+  "Sms": "SMS",
+  "Voice": "Stimme",
+  "Current Unbilled": "Aktuell nicht in Rechnung gestellt",
+  "Next Bill Date": "Nächstes Rechnungsdatum",
+  "No. of days left": "Verbleibende Tage",
+  "virtual-assistant": {
+    "userId": "Benutzer-ID",
+    "channel": "Kanal",
+    "appName": "App-Name",
+    "timeout": "Zeitüberschreitung",
+    "userLocation": "Benutzerstandort",
+    "saveChat": "Chat speichern",
+    "showContext": "Kontext anzeigen",
+    "spellChecker": "Rechtschreibprüfung",
+    "source": "Quellname",
+    "highlight": "Entität hervorheben",
+    "suggestion": "Automatischer Vorschlag",
+    "notification": "Benachrichtigung",
+    "textToSpeech": "Text zu Sprache",
+    "speechToText": "Sprache zu Text",
+    "apply": "Änderungen anwenden",
+    "recommended": "Empfohlen:",
+    "typed": "Eingetippt:",
+    "settings": "Einstellungen",
+    "clear": "Chat löschen",
+    "liveAgentStart": "Live-Chat starten",
+    "liveAgentEnd": "Live-Chat beenden",
+    "more": "Mehr sehen...",
+    "shrink": "Verkleinern",
+    "expand": "Erweitern",
+    "minimize": "Minimieren",
+    "idReqValid": "Benutzer-ID ist erforderlich.",
+    "idLengthValid": "Benutzer-ID ist zu lang. Maximal 100 Zeichen erlaubt",
+    "idPatternValid": "Benutzer-ID sollte alphanumerisch sein. Darf . @ _ und - enthalten",
+    "nameReqValid": "App-Name ist erforderlich.",
+    "queryPlaceholder": "Geben Sie Ihren Text hier ein",
+    "userIdPlaceholder": "Benutzer-ID eingeben",
+    "channelPlaceholder": "Kanalart eingeben",
+    "appNamePlaceholder": "App-Namen eingeben",
+    "timeoutPlaceholder": "Zeitüberschreitung eingeben",
+    "locationPlaceholder": "Benutzerstandort eingeben",
+    "developerOptions": "Entwickleroptionen",
+    "languageQuery": "Sprachanfrage",
+    "closeSession": "Sitzung schließen",
+    "clearCache": "Cache leeren",
+    "success": "Erfolg!",
+    "changesAppliedSuccessMsg": "Änderungen erfolgreich angewendet!!",
+    "error": "Huch!",
+    "successModelToaster": "Erfolgreich Modelle und Konfigurationen für serverloses Erkennen geladen",
+    "errorModelToaster": "Fehler beim Laden der Datei, die für das serverlose FAQ-Erkennen benötigt wird",
+    "sourceErrorMsg": "{{appName}} hat keine Quelle für das serverlose FAQ-Erkennen",
+    "sessionWarningTitle": "Sitzung läuft ab",
+    "sessionWarningMessage": "Sitzung läuft in {{timeout}} Sekunden ab für Benutzer: {{userId}}, wegen Inaktivität!",
+    "question": "Frage",
+    "score": "Bewertung",
+    "intent": "Absicht",
+    "noIntentMessage": "Top 5 Absichten.",
+    "noQuestionMessage": "Top 5 Fragen.",
+    "nlpMessage": "Antwort in natürlicher Sprache",
+    "composite": "Zusammengesetzt",
+    "regex": "Regex",
+    "component": "Komponente",
+    "spellCheck": "Rechtschreibprüfung",
+    "questionnaire": "Fragebogen",
+    "faq": "FAQ",
+    "docComp": "Dokumentverständnis",
+    "smalTalk": "Small Talk",
+    "fallBackSearch": "Ersatz-Suchmaschine",
+    "liveAgent": "Live-Agent",
+    "fallback": "Ersatz",
+    "topIntents": "Top Absichten",
+    "topQuestions": "Top Fragen",
+    "response": "Antwort {}",
+    "preEntity": "Vorgefertigte Entitäten",
+    "staticEntity": "Statische Entitäten",
+    "nerEntity": "NER-Entitäten",
+    "compEntity": "Zusammengesetzte Entitäten",
+    "regEntity": "Regex-Entitäten",
+    "topDocs": "Top-Dokumente",
+    "fallBackResponse": "Probleme bei der Verarbeitung der Anfrage. Bitte versuchen Sie es später noch einmal.",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
+    "addParams": "Zusätzliche Parameter"
+  },
+  "bot-context": {
+    "heading": "Kontext",
+    "key": "Schlüssel",
+    "value": "Wert",
+    "view": "Anzeigen",
+    "noContent": "Kontext ist leer oder nicht erstellt.",
+    "botContext": "Bot-Kontext"
+  },
+  "intelligentSearch": {
+    "found": "Gefunden",
+    "answers": "Antworten in",
+    "diffDocs": "Verschiedene Dokumente",
+    "referred": "Am meisten referenzierte Dokumente",
+    "target": "ZIEL",
+    "noData": "Keine Suchergebnisse für Benutzeranfrage gefunden!",
+    "searchFaq": "Suche FAQs für",
+    "documents": "Dokumente",
+    "faqs": "FAQs",
+    "confidence": "Vertrauen",
+    "trends": "Trends",
+    "all": "ALLE",
+    "show": "Zeige Ergebnisse für: ",
+    "title": "Intelligente Suche",
+    "search": "Suche läuft"
+  },
+  "callScore": {
+    "title": "Anrufbewertung",
+    "segments": "Segmente der Anrufbewertung",
+    "elements": "Elemente für ",
+    "chats": "Transkript zur Bestimmung ",
+    "emptyChat": "Keine Daten"
+  },
+  "smart-guidance": {
+    "insights": "Einblicke",
+    "knowledgeBank": "Wissensbank",
+    "noResult": "Keine Ergebnisse",
+    "nudge": "Stupser",
+    "undo": "RÜCKGÄNGIG",
+    "feebackSubmit": "Feedback erfolgreich gesendet",
+    "nudgeHistory": "Stupser-Verlauf",
+    "pinnedNudge": "Angeheftete Stupser",
+    "recentNudge": "Aktuelle Stupser",
+    "noNudge": "Keine Stupser",
+    "feedback": "Feedback",
+    "click": "Klicken Sie auf",
+    "elseClick": "wenn Sie den Stupser akzeptiert haben. Andernfalls klicken Sie auf",
+    "noFeedback": "Kein Feedback erforderlich",
+    "intent": "Absicht: "
+  },
+  "nudgePersonalization": {
+    "title": "Wähle Stupser-Szenarien",
+    "agentCriteria": {
+      "back": "Zurück",
+      "resetAll": "Alles zurücksetzen",
+      "next": "Nächster",
+      "customerGeography": "Kundengeographie",
+      "contactCenterGeography": "Geographie des Kontaktzentrums",
+      "jobLevel": "Arbeitslevel/Rolle",
+      "agentPerformanceScore": "Leistungsbewertung des Agenten",
+      "customerExperienceScore": "Kundenerfahrungsbewertung",
+      "nudgeAcceptanceScore": "Akzeptanzbewertung des Stupsers",
+      "agentTrainingScore": "Schulungsbewertung des Agenten",
+      "selectAgentGroup": "Agentengruppe auswählen",
+      "selectAgentCriteria": "Agentenkriterien auswählen"
+    },
+    "confirmationModal": {
+      "cancel": "Abbrechen",
+      "delete": "Löschen",
+      "confirmationMessage": "Bestätigung",
+      "subMessage": "Möchten Sie die Kombination löschen?"
+    },
+    "nudgeScenariosList": {
+      "title": "Wähle Stupser-Szenarien",
+      "call": "Anruf",
+      "chat": "Chat",
+      "information": "Für diese Kombination von Werten wurden 3 Stupser aktiviert",
+      "selectAll": "Alle auswählen",
+      "back": "Zurück",
+      "resetAll": "Alles zurücksetzen",
+      "save": "Speichern",
+      "close": "Schließen",
+      "nudgeScenarios": "Stupser-Szenarien",
+      "informationOne": "Für diese Kombination von Werten",
+      "informationTwo": "Stupser wurden aktiviert"
+    },
+    "successModal": {
+      "close": "Schließen",
+      "createNew": "Neu erstellen"
+    },
+    "personalization": {
+      "customerGeography": "Kundengeographie",
+      "contactCenterGeography": "Geographie des Kontaktzentrums",
+      "interactionType": "Interaktionstyp",
+      "createNewCombination": "Neue Kombination erstellen",
+      "personalizedNudges": "Personalisierte Stupser"
+    }
+  },
+  "nudgeConfiguration": {
+    "actionButtons": {
+      "type": "Typ",
+      "title": "Titel",
+      "description": "Beschreibung",
+      "actionButtons": "Aktionsknöpfe",
+      "scenarioDescription": "Szenariobeschreibung",
+      "reset": "Zurücksetzen",
+      "save": "Speichern",
+      "close": "Schließen",
+      "cancel": "Abbrechen",
+      "clearAll": "Alles löschen",
+      "saveChanges": "Änderungen speichern",
+      "configuration": "Kontinuierliches Lernen",
+      "priority": "Priorität",
+      "tags": "Tags"
+    },
+    "behavioralScenarioDetails": {
+      "title": "Titel",
+      "measurementMetric": "Messmetrik",
+      "customerSentiment": "Kundensentiment",
+      "select": "-auswählen-",
+      "negative": "Negativ",
+      "highlyNegative": "Hochgradig Negativ",
+      "description": "Beschreibung",
+      "reset": "Zurücksetzen",
+      "save": "Speichern",
+      "uploadFillerWordsDocument": "Füllwörterdokument hochladen",
+      "information": "Bitte stellen Sie sicher, dass das Dokument im pdf/doc/csv-Format vorliegt und die Größe weniger als 5MB beträgt"
+    },
+    "motivationCardDetails": {
+      "title": "Titel",
+      "metrics": "Metriken",
+      "description": "Beschreibung",
+      "reset": "Zurücksetzen",
+      "save": "Speichern"
+    },
+    "nudgeConfigurationCard": {
+      "customerGeography": "Kundengeographie",
+      "contactCenterGeography": "Geographie des Kontaktzentrums",
+      "interactionType": "Interaktionstyp",
+      "call": "Anruf",
+      "chat": "Chat",
+      "nudgeCategory": "Nudge-Kategorie",
+      "nudgeTrigger": "Nudge-Auslöser",
+      "type": "Typ"
+    },
+    "preCallInfo": {
+      "title": "Titel",
+      "fields": "Felder"
+    },
+    "scenario": {
+      "scenarios": "Szenarien"
+    },
+    "speakingPaceDetails": {
+      "title": "Titel",
+      "measurementMetric": "Messmetrik",
+      "threshold": "Schwellenwert",
+      "numberOfOccurences": "Anzahl der Vorkommen",
+      "consecutiveOccurences": "Aufeinanderfolgende Vorkommen",
+      "description": "Beschreibung",
+      "reset": "Zurücksetzen",
+      "save": "Speichern"
+    },
+    "compliance": {
+      "configuration": "Kontinuierliches Lernen",
+      "title": "Titel",
+      "measurementMetric": "Messmetrik",
+      "thresholdPercentage": "Schwellenwert (Prozentsatz)",
+      "numberOfOccurrences": "Anzahl der Vorkommen",
+      "consecutiveOccurrences": "Aufeinanderfolgende Vorkommen",
+      "bestAnswers": "Beste Antworten",
+      "complianceType": "Compliance-Typ",
+      "priority": "Priorität",
+      "tags": "Tags",
+      "description": "Beschreibung",
+      "textPlaceholder": "Text hier eingeben"
+    }
+  },
+  "dashboard": {
+    "filter": "Filter",
+    "queue": "Warteschlange",
+    "location": "Standort",
+    "time": "Zeit",
+    "clearAll": "Alles löschen",
+    "clear": "Löschen",
+    "saveChanges": "Änderungen speichern",
+    "cancel": "Abbrechen",
+    "actual": "Tatsächlich",
+    "prediction": "Vorhersage",
+    "averageBusyTime": "Durchschnittliche Beschäftigungszeit",
+    "totalBusyTime": "Gesamte Beschäftigungszeit",
+    "averageIdleTime": "Durchschnittliche Leerlaufzeit",
+    "totalIdleTime": "Gesamte Leerlaufzeit",
+    "viewDetails": "Details anzeigen",
+    "teamScore": "Teamwertung",
+    "forecast": "Prognose",
+    "teamAverage": "TEAM DURCHSCHNITT",
+    "teamAvg": "Team Durchschnitt",
+    "yourScore": "DEINE PUNKTZAHL",
+    "averageTarget": "DURCHSCHNITTLICHES ZIEL",
+    "productivity": "Produktivität des Teams",
+    "seeDetails": "DETAILS ANZEIGEN >",
+    "seeTrends": "TRENDS ANZEIGEN >",
+    "showMore": "MEHR ANZEIGEN >",
+    "positive": "Positiv",
+    "neutral": "Neutral",
+    "negative": "Negativ",
+    "update": "Aktualisieren",
+    "configureTable": "Tabelle konfigurieren",
+    "horizontalScroll": "Horizontales Scrollen",
+    "duration": "Dauer",
+    "date": "Datum",
+    "from": "Von",
+    "to": "Bis",
+    "sentiment": "Stimmung",
+    "holdTime": "Haltezeit",
+    "repeatCaller": "Wiederholungsanrufer",
+    "firstCallResolution": "Erstlösungsquote",
+    "resolutionProvided": "Bereitgestellte Lösung",
+    "driversAndIssues": "Treiber und Probleme nach Stimmung",
+    "sentimentWise": "Stimmungsbasierte Anrufvolumen",
+    "sentimentHeatmap": "Stimmungs-Heatmap",
+    "noData": "Keine Daten verfügbar.",
+    "interactionDetails": "Interaktionsdetails",
+    "wordCloud": "Wortwolke",
+    "backToDashboard": "Zurück zum Dashboard",
+    "insights": "Einblicke",
+    "recommendations": "Empfehlungen",
+    "viewAll": "Alle ansehen",
+    "targetScore": "ZIELPUNKTZAHL",
+    "targetSc": "Zielpunktzahl",
+    "centerAverage": "CENTER DURCHSCHNITT",
+    "centerAvg": "Center Durchschnitt",
+    "extra": "Extra",
+    "complete": "Vollständig",
+    "attention": "Aufmerksamkeit",
+    "complianceViolations": "Compliance-Verstöße",
+    "typeWiseCompliance": "Compliance-Verstöße nach Typ",
+    "supervisorAssists": "Vorgesetztenhilfe",
+    "noOfSupervisorInterventions": "Anzahl der Eingriffe des Vorgesetzten",
+    "ahtDetails": "AHT-Details",
+    "ahtWiseCallVolume": "AHT-basiertes Anrufvolumen",
+    "ahtDistribution": "AHT-Verteilung",
+    "customerSentiment": "Kundenstimmung",
+    "performanceSubMetrics": "Leistungs-Teilmetriken",
+    "serviceLevelTargets": "Service-Level-Ziele",
+    "team": "Team",
+    "learningDashboard": "Zum Lern-Dashboard gehen",
+    "customerConnectScore": "Kundenverbindungswertung",
+    "empathy": "Empathie",
+    "surveysOffered": "Angebotene Umfragen",
+    "ingestCall": "Anruf erfassen",
+    "ingestedCallsInfo": "Bitte laden Sie .wav oder .flac Dateien hoch",
+    "upload": "Hochladen",
+    "callId": "Anruf-ID",
+    "callRecords": "Liste der Anrufaufzeichnungen",
+    "historicalCallRecords": "Historische Anrufaufzeichnungen",
+    "uploadedBatches": "Liste der hochgeladenen Anrufbatches",
+    "uploadBatch": "Batch hochladen",
+    "callQualityAnalysis": "Anrufqualitätsanalyse",
+    "ingestCalls": "Anrufe erfassen",
+    "callDisposition": "Anruf-Disposition",
+    "callGroup": "Anrufgruppe",
+    "issue": "Problem",
+    "cause": "Ursache",
+    "resolution": "Lösung",
+    "advance": "Voraus",
+    "action": "Aktion",
+    "editTranscript": "Transkript bearbeiten",
+    "save": "Speichern",
+    "transcript": "Transkript",
+    "playAudio": "Audio abspielen",
+    "checkTranscripts": "Den Anruf anhören und die Transkripte überprüfen",
+    "audioQuality": "Audioqualität",
+    "callSentiments": "Anrufstimmungen",
+    "callParticipation": "Anrufbeteiligung",
+    "averageCallDuration": "Durchschnittliche Anrufdauer",
+    "callRecordsAnalysis": "Analyse der Anrufaufzeichnungen",
+    "callRecordsAnalyzed": "Analysierte Anrufaufzeichnungen",
+    "callRecordsFetched": "Abgerufene Anrufaufzeichnungen",
+    "agentSentiment": "Agentenstimmung",
+    "clientSentiment": "Kundenstimmung",
+    "averageSentiment": "Durchschnittliche Stimmung",
+    "agentPace": "Tempo des Agenten",
+    "wordsPerMin": "Wörter pro Minute",
+    "associatedTags": "Zugehörige Tags",
+    "silentTime": "Stille Zeit",
+    "overall": "Insgesamt",
+    "agent": "Agent",
+    "customer": "Kunde",
+    "tone": "Ton",
+    "participationRatio": "Beteiligungsverhältnis",
+    "sentimentAndTone": "Stimmung und Ton",
+    "interruption": "Unterbrechung",
+    "pace": "Tempo",
+    "wordsPerMinute": "Wörter pro Minute",
+    "markAsQualityChecked": "Als Qualitätsgeprüft markieren",
+    "qualityChecked": "Qualitätsgeprüft",
+    "back": "Zurück",
+    "associatedTagsValidation": "Tags können maximal 30 Zeichen lang sein",
+    "batch": "Batch",
+    "batchDescription": "Batch-Beschreibung",
+    "noOfAudioFiles": "Anzahl der Audiodateien",
+    "updateDate": "Aktualisiertes Datum",
+    "reviewed": "Überprüft",
+    "issues": "Probleme",
+    "callDuration": "Anrufdauer",
+    "associatedTagsPlaceholder": "Geben Sie ein Tag ein",
+    "startTagging": "Tagging starten",
+    "undo": "Rückgängig",
+    "defaultMessage": "Beim Abspielen des Audios werden die Töne der jeweiligen Regionen hier angezeigt",
+    "analyze": "Analysieren",
+    "warningMessage": {
+      "part0": "",
+      "part1": "Die ausgewählte Zeit sollte zwischen ",
+      "part2": " Sekunden und ",
+      "part3": " Sekunden liegen !!!"
+    },
+    "interruptions": {
+      "total": "Anzahl der Unterbrechungen",
+      "agent": "Agent",
+      "customer": "Kunde"
+    },
+    "totalErrors": "Anzahl der Fehler:",
+    "analysis": {
+      "title": "Antwortanalyse",
+      "transcript": "Transkript",
+      "grammar": "Grammatik",
+      "mistakes": "Keine grammatikalischen Fehler basierend auf der aktuellen Regelkonfiguration."
+    },
+    "averagePercentage": "Durchschnittlicher Prozentsatz",
+    "usedWords": "Verwendete Wörter",
+    "alternatives": "Alternativen",
+    "revisitInstance": "Instanz erneut besuchen",
+    "correct": "Korrekt",
+    "wrong": "Falsch",
+    "score": "PUNKTZAHL",
+    "target": "ZIEL",
+    "occupancy": "Belegung",
+    "agentsAndOccupancyPercentage": "Liste der Agenten und Belegungsprozentsatz",
+    "agentsAndSchedulePercentage": "Liste der Agenten und Einhaltung des Zeitplans",
+    "processWiseCompliance": "Prozessbezogener Compliance-Score",
+    "locationWiseCompliance": "Standortbezogener Compliance-Score",
+    "agentsWithCompliance": "Liste der Agenten mit Compliance-Score",
+    "numberOfInteractions": "Anzahl der Interaktionen",
+    "processWiseEscalation": "Prozessbezogene Eskalationsrate",
+    "locationWiseEscalation": "Standortbezogene Eskalationsrate",
+    "reasonWiseEscalation": "Grundbezogene Eskalationsrate",
+    "escalatedCalls": "Eskalierte Anrufe",
+    "agentsWithEscalation": "Liste der Agenten mit Eskalationsrate",
+    "averageHandlingTime": "Durchschnittliche Bearbeitungszeit",
+    "averageSpeedOfAnswer": "Durchschnittliche Antwortgeschwindigkeit",
+    "ongoingCallDrivers": "Laufende Anrufursachen",
+    "callbackRequests": "Rückrufanfragen",
+    "totalCallsHandled": "Insgesamt bearbeitete Anrufe",
+    "callsHandled": "Bearbeitete Anrufe",
+    "ofDailyTargetCompleted": "des täglichen Ziels erreicht",
+    "moreCalls": "mehr Anrufe erforderlich, um das Tagesziel zu erreichen",
+    "activeCalls": "Aktive Anrufe",
+    "longestCall": "Längster Anruf",
+    "avgHoldTime": "Durchschn. Wartezeit",
+    "avgSilenceTime": "Durchschn. Stillezeit",
+    "no": "Nein",
+    "provivedYet": "bisher bereitgestellt!",
+    "top20Drivers": "Top 20 Treiber",
+    "volumeOfCalls": "Anrufvolumen",
+    "repeatCallDrivers": "Wiederholte Anrufursachen",
+    "intentIssueCause": "Absicht, Problem und Ursache",
+    "callDrivers": "Anrufursachen",
+    "nudgeEffectiveness": "NUDGE EFFEKTIVITÄT >",
+    "processWiseSLA": "Prozessbezogene Dienstgütevereinbarung",
+    "agentsWithSLA": "Liste der Agenten mit Dienstgütevereinbarung",
+    "locationWiseSLA": "Standortbezogene Dienstgütevereinbarung",
+    "top5": "Top 5",
+    "top10": "Top 10",
+    "welcomeBack": "Willkommen zurück",
+    "progress": "Fortschritt liegt im Zeitplan.",
+    "unavailable": "Teammitglieder sind heute nicht verfügbar",
+    "abandonedCalls": "Verlassene Anrufe",
+    "averageWaitTime": "Durchschnittliche Wartezeit",
+    "averageWaitTimeCaps": "DURCHSCHNITTLICHE WARTEZEIT",
+    "abandonedInIVR": "Im IVR verlassen",
+    "abandonedInQueues": "In Warteschlangen verlassen",
+    "scenarios": "Szenarien",
+    "overallAcceptanceRatio": "Gesamte Akzeptanzrate",
+    "acceptanceRatioJob": "Akzeptanzrate: Joblevel",
+    "acceptanceRatioExperience": "Akzeptanzrate: Erfahrung (Jahre)",
+    "feedback": "Feedback",
+    "cxScore": "CX-Punktzahl",
+    "repeatTrend": "Wiederholungstrend",
+    "repeatWordCloud": "Wiederholte Wortwolke",
+    "driverCategorization": "Treiberkategorisierung",
+    "customerExperienceScore": "Kundenerfahrungspunktzahl",
+    "agentPerformanceScore": "Agentenleistungspunktzahl",
+    "serviceLineTargets": "Ziele der Dienstleistungslinie",
+    "complianceScore": "Compliance-Punktzahl",
+    "firstCallResolutionRate": "Erstlösungsrate bei Anrufen",
+    "volumes": "Volumen",
+    "recentCalls": "Kürzliche Anrufe",
+    "customerEffort": "Kundenaufwand",
+    "averagePace": "Durchschnittliches Tempo",
+    "grammaticalScore": "Grammatikalische Punktzahl",
+    "scheduleAdherence": "Einhaltung des Zeitplans",
+    "targetAHT": "Ziel AHT",
+    "serviceLineScore": "Dienstleistungslinienpunktzahl",
+    "totalViolations": "Gesamtzahl der Verstöße",
+    "agentUtilization": "Agentenauslastung",
+    "serviceLevelAdherence": "Dienstgüteeinhaltung",
+    "escalationRate": "Eskalationsrate",
+    "customerSatisfactionScore": "Kundenzufriedenheitspunktzahl",
+    "agentsPerformanceTable": "Leistungstabelle der Agenten",
+    "repeatCallRate": "Wiederholungsanrufrate",
+    "ticketResolution": "Ticketlösung",
+    "resolutionEffectiveness": "Lösungseffektivität",
+    "supervisorsAssist": "Unterstützung durch Vorgesetzte",
+    "supervisorsAssistFooter": "Anrufe, die Unterstützung durch den Vorgesetzten benötigten",
+    "simulteScore": "Simulationspunktzahl",
+    "reasonsForUnsuccessfulFCR": "Gründe für erfolglose FCR",
+    "callVolumeFCR": "Anrufvolumen & FCR",
+    "customerRetentionFCR": "Kundenbindung & FCR",
+    "agentFCR": "Liste der Agenten und FCR-Rate",
+    "callDriversFCR": "Liste der Anrufursachen und FCR-Rate",
+    "channelFCR": "FCR-Raten über Kanäle"
+  },
+  "widgetViewer": {
+    "heading": "Widget-Bibliothek",
+    "subHeading": "Passen Sie die Widgets mit wenigen Klicks an Ihren Inhalt an, mit unserem leistungsstarken - aber einfachen - Widget-Ersteller.",
+    "explore": "Erkunden",
+    "about": "Über",
+    "aboutDesc": "Dies ist eine Bibliothek, die in Angular erstellt wurde und die Benutzer installieren und sofort ihre Widgets nutzen können.",
+    "search": "Suche",
+    "example": "Beispiel",
+    "preview": "Vorschau",
+    "source": "Quelle",
+    "default": "Standard",
+    "cosmic": "Kosmisch",
+    "dark": "Dunkel",
+    "corporate": "Unternehmens",
+    "gettingStarted": "Erste Schritte",
+    "description": "Beschreibung",
+    "props": "Eigenschaften",
+    "back": "Zurück",
+    "getStarted": {
+      "btnText": "Loslegen",
+      "introMsg": "Dieser Leitfaden bietet Ihnen alle Informationen, die Sie benötigen, bevor Sie die Widget-Bibliothek verwenden.",
+      "preRequisites": "Voraussetzungen",
+      "packages": "Es gibt einige Pakete, die installiert werden müssen, bevor Sie diese Bibliothek verwenden können. Sie sind wie folgt aufgelistet:",
+      "installation": "Installation",
+      "depInstall": {
+        "using": "Die oben aufgeführten Abhängigkeiten können mit ",
+        "depName": "installiert werden, wobei depName der Name der Abhängigkeit ist."
+      },
+      "usage": "Verwendung",
+      "usageDesc": "Sie können die Bibliothek auf zwei Arten verwenden -",
+      "staticImports": "Statische Importe",
+      "dynamicRender": "Dynamisches Rendering von Widgets",
+      "staticDesc1": "Wenn Sie die Widgets direkt aus der Bibliothek verwenden möchten, müssen Sie lediglich das CortexWidgetsModule in Ihrem Feature-Modul, z. B. PageModule (oder wo auch immer Sie die Widgets verwenden möchten), wie folgt importieren:",
+      "staticDesc2": "und dann müssen Sie lediglich dem Quellcode folgen, der im Abschnitt 'Quelle' dieses Widgets bereitgestellt wird.",
+      "dynamicDesc1": "Dynamisches Rendering nutzt ein weiteres Modul, das Teil dieser Bibliothek ist - das ComponentRendererModule.",
+      "dynamicDesc2": {
+        "line1": "Das ComponentRendererModule bietet den ComponentRendererComponent für das dynamische Rendern der Widgets und NudgeContainerComponent für das Rendern der Nudge-Widgets.",
+        "line2": "Alle Widgets, die dynamisch mit dem Component Renderer verwendet werden müssen, müssen als Teil eines RepoModule verpackt werden.",
+        "line3": "Dieses RepoModule muss dann mit dem Injection Token von RepoModule versehen werden."
+      },
+      "dynamicDesc3": "Betrachten wir ein Beispiel, um die Verwendung des Komponenten-Renderers zu verstehen.",
+      "dynamicDesc4": {
+        "line1": "Angenommen, Sie haben ein Modul namens MyCustomRepoModule, das zwei Komponenten enthält - FirstComponent und SecondComponent.",
+        "line2": "Um die Komponenten dieses Moduls dynamisch zu rendern, müssen Sie zuerst eine statische Eigenschaft namens 'componentsRepo' in Ihrem Modul wie folgt bereitstellen:"
+      },
+      "dynamicDesc5": "Danach müssen Sie in Ihrem PageModule (oder dem Modul, in dem Sie den Komponenten-Renderer verwenden möchten) das ComponentRendererModule und MyCustomRepoModule importieren und das MyCustomRepoModule als Wert für das Injection Token 'RepoModule' wie folgt bereitstellen:",
+      "usageOfWidgets": "Verwendung von Widgets",
+      "usageOfWidgetsDesc": "Jetzt besprechen wir, wie man den Komponenten-Renderer verwendet.",
+      "copyAssets": "Kopieren von Assets aus der Bibliothek in Ihre Anwendung",
+      "copyDesc1": "Es gibt einige Assets, die von einigen Widgets verwendet werden, wie Icons, Bilder usw. Um die Assets aus der cortex-widgets Bibliothek in Ihre Anwendung zu kopieren, müssen Sie den folgenden Abschnitt im Architekturabschnitt Ihrer Anwendung in angular.json unter der Eigenschaft 'options' wie folgt einfügen:",
+      "copyDesc2": "Nachdem dies erfolgt ist, müssen Sie Ihre Anwendung mit dem folgenden Befehl bauen:",
+      "copyDesc3": "Sobald dies erledigt ist, beginnen die Assets aus der Bibliothek in Ihrer Anwendung zu rendern.",
+      "availableWidgets": "Verfügbare Dynamische Widgets",
+      "availableDesc1": "Die Bibliothek bietet bereits einige Widgets verpackt als vorbereitetes Repo Modul namens 'CortexWidgetsModule', das beinhaltet:",
+      "availableDesc2": "Die Details zu jedem dieser Widgets sind auf den nachfolgenden Seiten verfügbar."
+    },
+    "widgetGallery": "Widget Galerie",
+    "view": "Ansicht"
+  },
+  "Data cards": "Datenkarten",
+  "Graphs": "Diagramme",
+  "Tables": "Tabellen",
+  "Carousels": "Karussells",
+  "Global": "Global",
+  "Extra": "Extra",
+  "knowledgeDashboard": {
+    "dashboard": {
+      "view": "Ansicht",
+      "review": "Überprüfen",
+      "takeAction": "Aktion ergreifen",
+      "viewAll": "Alle anzeigen",
+      "showMore": "Mehr anzeigen",
+      "feedback": "Feedback",
+      "averageRating": "Durchschnittliche Bewertung",
+      "publishedArticles": "Veröffentlichte Artikel",
+      "articleUsageMetric": "Artikel-Nutzungsmetrik",
+      "searchOverview": "Suchübersicht",
+      "welcome": "Willkommen zurück",
+      "newArticleCount": "Neue Artikel benötigen Genehmigung",
+      "commentsCount": "Kommentare vom Team",
+      "avgArticleConfidenceScore": "Durchschnittlicher Artikel-Vertrauenswert",
+      "searchVolumeByType": "Suchvolumen nach Typ"
+    },
+    "articles": {
+      "published": "Veröffentlicht",
+      "active": "Aktiv",
+      "flagged": "Markiert",
+      "new": "Neu",
+      "submitted": "Eingereicht",
+      "draft": "Entwurf",
+      "pendingExtension": "Erweiterung ausstehend",
+      "rejected": "Abgelehnt",
+      "deleted": "Gelöscht",
+      "trendingArticles": "Beliebte Artikel",
+      "articleForCalls": "Artikel für Anrufe",
+      "articleForChats": "Artikel für Chats"
+    },
+    "common": {
+      "articles": "Artikel",
+      "mostUpvotes": "Meiste Upvotes",
+      "mostDownvotes": "Meiste Downvotes",
+      "mostUsage": "Meist genutzt",
+      "upforReview": "Zur Überprüfung",
+      "needforApproval": "Genehmigung erforderlich",
+      "customerComments": "Kundenkommentare",
+      "teamsComments": "Kommentare des Teams",
+      "publishedInformation": "Zeigt {{showing}} von {{total}} veröffentlichten Artikeln",
+      "articlesReadInformation": "Zeigt {{showing}} von {{total}} am meisten gelesenen Artikeln",
+      "keywordsInformation": "Zeigt {{showing}} von {{total}} Schlüsselwörtern",
+      "processesInformation": "Zeigt {{showing}} von {{total}} Prozessen",
+      "search": "Suche",
+      "back": "Zurück",
+      "used": "Genutzt",
+      "calls": "Anrufe",
+      "chats": "Chats",
+      "totalArticles": "Gesamtanzahl Artikel",
+      "allArticles": "Alle Artikel",
+      "publishRate": "Veröffentlichungsrate",
+      "noData": "Keine Daten verfügbar.",
+      "proactive": "Proaktiv",
+      "onDemand": "Auf Anfrage"
+    },
+    "feedback": {
+      "filter": {
+        "title": "Filter",
+        "flagged": "Markiert",
+        "upvoted": "Upgevoted",
+        "downvoted": "Downgevoted",
+        "star": "Stern",
+        "positive": "Positiv",
+        "negative": "Negativ",
+        "neutral": "Neutral",
+        "comments": "Kommentare",
+        "rating": "Bewertung"
+      }
+    },
+    "searchOverview": {
+      "searchOverview": {
+        "title": "Suchübersicht",
+        "noResults": "Keine Ergebnisse",
+        "returnedResults": "Erhaltene Ergebnisse",
+        "totalResults": "Gesamtergebnisse"
+      },
+      "processwithHighestSearch": {
+        "title": "Prozess mit den meisten Suchanfragen",
+        "process": "Prozess"
+      },
+      "keywordSearchSuccessRatio": "Erfolgsquote der Schlüsselwortsuche",
+      "popularKeywords": "Beliebte Schlüsselwörter",
+      "failedKeywords": "Gescheiterte Schlüsselwörter",
+      "keyword": "Schlüsselwort",
+      "count": "Anzahl",
+      "usage": {
+        "title": "Nutzung",
+        "video": "Video",
+        "simulator": "Simulator",
+        "infoArticle": "Informationsartikel"
+      }
+    },
+    "timefilter": {
+      "title": "Zeitfilter",
+      "fromDate": "Von Datum",
+      "toDate": "Bis Datum",
+      "cancel": "Abbrechen",
+      "saveChanges": "Änderungen speichern"
+    }
+  },
+  "experience": {
+    "shrink": "Verkleinern",
+    "expand": "Erweitern",
+    "minimize": "Minimieren"
+  },
+  "cortex-lens": {
+    "lensHeading": "Cortex Linse",
+    "agent": "Agent",
+    "customer": "Kunde",
+    "callEnded": "Anruf beendet",
+    "callStarted": "Anruf erhalten",
+    "api": "API",
+    "positiveSentiment": "positiv",
+    "negativeSentiment": "negativ",
+    "neutralSentiment": "neutral",
+    "intentHit": "Treffer",
+    "intentFallback": "Fallback",
+    "intentSuccess": "Erfolg"
+  }
+}
